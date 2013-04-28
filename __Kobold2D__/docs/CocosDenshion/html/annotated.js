@@ -1,0 +1,28 @@
+var annotated =
+[
+    [ "bufferInfo", "structbuffer_info.html", "structbuffer_info" ],
+    [ "CDAsynchBufferLoader", "interface_c_d_asynch_buffer_loader.html", "interface_c_d_asynch_buffer_loader" ],
+    [ "CDAsynchInitialiser", "interface_c_d_asynch_initialiser.html", null ],
+    [ "<CDAudioInterruptProtocol>", "protocol_c_d_audio_interrupt_protocol-p.html", "protocol_c_d_audio_interrupt_protocol-p" ],
+    [ "CDAudioInterruptTargetGroup", "interface_c_d_audio_interrupt_target_group.html", "interface_c_d_audio_interrupt_target_group" ],
+    [ "CDAudioManager", "interface_c_d_audio_manager.html", "interface_c_d_audio_manager" ],
+    [ "<CDAudioTransportProtocol>", "protocol_c_d_audio_transport_protocol-p.html", "protocol_c_d_audio_transport_protocol-p" ],
+    [ "CDBufferLoadRequest", "interface_c_d_buffer_load_request.html", "interface_c_d_buffer_load_request" ],
+    [ "CDBufferManager", "interface_c_d_buffer_manager.html", "interface_c_d_buffer_manager" ],
+    [ "CDFloatInterpolator", "interface_c_d_float_interpolator.html", "interface_c_d_float_interpolator" ],
+    [ "CDLongAudioSource", "interface_c_d_long_audio_source.html", "interface_c_d_long_audio_source" ],
+    [ "<CDLongAudioSourceDelegate>", "protocol_c_d_long_audio_source_delegate-p.html", "protocol_c_d_long_audio_source_delegate-p" ],
+    [ "CDLongAudioSourceFader", "interface_c_d_long_audio_source_fader.html", null ],
+    [ "CDPropertyModifier", "interface_c_d_property_modifier.html", "interface_c_d_property_modifier" ],
+    [ "CDSoundEngine", "interface_c_d_sound_engine.html", "interface_c_d_sound_engine" ],
+    [ "CDSoundEngineFader", "interface_c_d_sound_engine_fader.html", null ],
+    [ "CDSoundSource", "interface_c_d_sound_source.html", "interface_c_d_sound_source" ],
+    [ "CDSoundSourceFader", "interface_c_d_sound_source_fader.html", null ],
+    [ "CDSoundSourcePanner", "interface_c_d_sound_source_panner.html", null ],
+    [ "CDSoundSourcePitchBender", "interface_c_d_sound_source_pitch_bender.html", null ],
+    [ "CDUtilities", "interface_c_d_utilities.html", "interface_c_d_utilities" ],
+    [ "CDXPropertyModifierAction", "interface_c_d_x_property_modifier_action.html", "interface_c_d_x_property_modifier_action" ],
+    [ "SimpleAudioEngine", "interface_simple_audio_engine.html", "interface_simple_audio_engine" ],
+    [ "sourceGroup", "structsource_group.html", "structsource_group" ],
+    [ "sourceInfo", "structsource_info.html", "structsource_info" ]
+];

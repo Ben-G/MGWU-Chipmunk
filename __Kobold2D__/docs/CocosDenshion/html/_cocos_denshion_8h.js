@@ -1,0 +1,26 @@
+var _cocos_denshion_8h =
+[
+    [ "CD_IGNORE_AUDIO_SESSION", "_cocos_denshion_8h.html#a0e9ae5818f2e734ec3abca8864bd04bf", null ],
+    [ "CD_MUTE", "_cocos_denshion_8h.html#aa9c24137a82c7001ce7b16a2029a8253", null ],
+    [ "CD_NO_SOUND", "_cocos_denshion_8h.html#a0717e503a279b3da29b544ba9b9a8cb0", null ],
+    [ "CD_NO_SOURCE", "_cocos_denshion_8h.html#a80e4152cfff85306a223cfda4369e63d", null ],
+    [ "CD_SAMPLE_RATE_BASIC", "_cocos_denshion_8h.html#a7ef58471fd56966b6ea0425f9a149a4d", null ],
+    [ "CD_SAMPLE_RATE_DEFAULT", "_cocos_denshion_8h.html#a9a71068a9d67243557ed590d4b38bac4", null ],
+    [ "CD_SAMPLE_RATE_HIGH", "_cocos_denshion_8h.html#ac9b2873765eab3419b9da3e7faebf5a8", null ],
+    [ "CD_SAMPLE_RATE_LOW", "_cocos_denshion_8h.html#a63418791d13f7328c9a7f232aca3dcbc", null ],
+    [ "CD_SAMPLE_RATE_MID", "_cocos_denshion_8h.html#adc9259c166a7ff5b02ac9ce2d036c826", null ],
+    [ "CD_SOURCE_LIMIT", "_cocos_denshion_8h.html#a2daa079cdbbeff3730d06bdf76314daa", null ],
+    [ "CDLOG", "_cocos_denshion_8h.html#a92e0272afe84c0a822215fefb134da85", null ],
+    [ "CDLOGINFO", "_cocos_denshion_8h.html#af477fe7d77f010ddf8035cc4c4ebbda5", null ],
+    [ "bufferState", "_cocos_denshion_8h.html#a74dc76a83db70f4df418dfc5232df300", null ],
+    [ "tCDInterpolationType", "_cocos_denshion_8h.html#abf5e3c49618c14630377c3696e7a3ab9", null ],
+    [ "kCD_GainDefault", "_cocos_denshion_8h.html#a2520b85232795f8f2442eeb293d3d226", null ],
+    [ "kCD_PanDefault", "_cocos_denshion_8h.html#af5085dbc652eb6743e3c246564947308", null ],
+    [ "kCD_PanFullLeft", "_cocos_denshion_8h.html#a5d3f002f40fd3e2854edbff851a9ad7a", null ],
+    [ "kCD_PanFullRight", "_cocos_denshion_8h.html#acf55e756bf827461da2e781f1c5f051e", null ],
+    [ "kCD_PitchDefault", "_cocos_denshion_8h.html#a9d209c68de4233739a02ebd53a305b60", null ],
+    [ "kCD_PitchHigherOneOctave", "_cocos_denshion_8h.html#ad15d2fba33835729d8d7fc476d134d31", null ],
+    [ "kCD_PitchLowerOneOctave", "_cocos_denshion_8h.html#a6eb90745920787f091a97a69ce2cce3a", null ],
+    [ "kCDN_AsynchLoadComplete", "_cocos_denshion_8h.html#aa716ef5fc27c2f6f6b136f3cdd6acf9f", null ],
+    [ "kCDN_BadAlContext", "_cocos_denshion_8h.html#a9815f4509b078e96cacd7d43d5ac50a5", null ]
+];

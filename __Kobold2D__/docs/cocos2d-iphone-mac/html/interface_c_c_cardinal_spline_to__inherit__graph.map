@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$interface_c_c_cardinal_spline_by.html" title="CCCardinalSplineBy" alt="" coords="5,315,139,343"/>
+<area shape="rect" id="node13" href="$interface_c_c_catmull_rom_to.html" title="CCCatmullRomTo" alt="" coords="164,315,287,343"/>
+<area shape="rect" id="node2" href="$interface_c_c_action_interval.html" title="CCActionInterval" alt="" coords="90,161,205,189"/>
+<area shape="rect" id="node4" href="$interface_c_c_finite_time_action.html" title="CCFiniteTimeAction" alt="" coords="81,83,215,111"/>
+<area shape="rect" id="node6" href="$interface_c_c_action.html" title="CCAction" alt="" coords="110,6,185,34"/>
+<area shape="rect" id="node11" href="$interface_c_c_catmull_rom_by.html" title="CCCatmullRomBy" alt="" coords="10,393,133,421"/>
+</map>

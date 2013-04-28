@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$interface_c_c_menu_item_label.html" title="CCMenuItemLabel" alt="" coords="172,238,296,266"/>
+<area shape="rect" id="node15" href="$interface_c_c_menu_item_sprite.html" title="CCMenuItemSprite" alt="" coords="321,238,447,266"/>
+<area shape="rect" id="node19" href="$interface_c_c_menu_item_toggle.html" title="CCMenuItemToggle" alt="" coords="471,238,603,266"/>
+<area shape="rect" id="node2" href="$interface_c_c_node_r_g_b_a.html" title="CCNodeRGBA" alt="" coords="331,83,436,111"/>
+<area shape="rect" id="node4" href="$interface_c_c_node.html" title="CCNode" alt="" coords="287,6,355,34"/>
+<area shape="rect" id="node6" href="$protocol_c_c_r_g_b_a_protocol-p.html" title="CC RGBA protocol." alt="" coords="380,6,516,34"/>
+<area shape="rect" id="node11" href="$interface_c_c_menu_item_atlas_font.html" title="CCMenuItemAtlasFont" alt="" coords="5,315,152,343"/>
+<area shape="rect" id="node13" href="$interface_c_c_menu_item_font.html" title="CCMenuItemFont" alt="" coords="176,315,295,343"/>
+<area shape="rect" id="node17" href="$interface_c_c_menu_item_image.html" title="CCMenuItemImage" alt="" coords="320,315,447,343"/>
+</map>

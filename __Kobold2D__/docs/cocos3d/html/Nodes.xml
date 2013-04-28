@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+  <TOC>
+    <Node>
+      <Name>Root</Name>
+      <Path>index.html</Path>
+      <Subnodes>
+        <Subnodes>
+         <Node>
+          <Name>Class List</Name>
+          <Path>annotated.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>Cocos3DDummyClass</Name>
+            <Path>interface_cocos3_d_dummy_class.html</Path>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Class Index</Name>
+          <Path>classes.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+      </Subnodes>
+    </Node>
+  </TOC>
+</DocSetNodes>

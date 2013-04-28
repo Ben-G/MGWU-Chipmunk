@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$interface_c_c_transition_progress_horizontal.html" title="CCTransitionProgressHorizontal" alt="" coords="610,5,806,33"/>
+<area shape="rect" id="node11" href="$interface_c_c_transition_progress_in_out.html" title="CCTransitionProgressInOut" alt="" coords="623,57,793,85"/>
+<area shape="rect" id="node13" href="$interface_c_c_transition_progress_out_in.html" title="CCTransitionProgressOutIn" alt="" coords="623,109,793,137"/>
+<area shape="rect" id="node15" href="$interface_c_c_transition_progress_radial_c_c_w.html" title="CCTransitionProgressRadialCCW" alt="" coords="605,161,811,189"/>
+<area shape="rect" id="node17" href="$interface_c_c_transition_progress_radial_c_w.html" title="CCTransitionProgressRadialCW" alt="" coords="610,213,806,241"/>
+<area shape="rect" id="node19" href="$interface_c_c_transition_progress_vertical.html" title="CCTransitionProgressVertical" alt="" coords="617,265,799,293"/>
+<area shape="rect" id="node2" href="$interface_c_c_transition_scene.html" title="CCTransitionScene" alt="" coords="242,135,368,163"/>
+<area shape="rect" id="node4" href="$interface_c_c_scene.html" title="CCScene" alt="" coords="123,135,194,163"/>
+<area shape="rect" id="node6" href="$interface_c_c_node.html" title="CCNode" alt="" coords="6,135,74,163"/>
+</map>

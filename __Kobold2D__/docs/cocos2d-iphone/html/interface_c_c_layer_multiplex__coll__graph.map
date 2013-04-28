@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interface_c_c_layer.html" title="CCLayer" alt="" coords="1017,338,1087,366"/>
+<area shape="rect" id="node4" href="$interface_c_c_node.html" title="CCNode" alt="" coords="833,259,901,287"/>
+<area shape="rect" id="node7" href="$interface_c_c_grid_base.html" title="CCGridBase" alt="" coords="523,78,613,106"/>
+<area shape="rect" id="node9" href="$interface_c_c_grabber.html" title="CCGrabber" alt="" coords="271,6,353,34"/>
+<area shape="rect" id="node11" href="$interface_c_c_texture2_d.html" title="CCTexture2D" alt="" coords="264,58,360,86"/>
+<area shape="rect" id="node13" href="$interface_c_c_g_l_program.html" title="CCGLProgram" alt="" coords="10,113,113,141"/>
+<area shape="rect" id="node16" href="$interface_c_c_array.html" title="CCArray" alt="" coords="402,263,472,291"/>
+<area shape="rect" id="node18" href="$structcc_array.html" title="ccArray" alt="" coords="29,302,93,330"/>
+<area shape="rect" id="node27" href="$structt_hash_element.html" title="tHashElement" alt="" coords="264,383,360,411"/>
+<area shape="rect" id="node20" href="$interface_c_c_camera.html" title="CCCamera" alt="" coords="528,290,608,318"/>
+<area shape="rect" id="node22" href="$interface_c_c_scheduler.html" title="CCScheduler" alt="" coords="522,342,614,370"/>
+<area shape="rect" id="node25" href="$interface_c_c_action_manager.html" title="CCActionManager" alt="" coords="507,394,629,422"/>
+<area shape="rect" id="node29" href="$struct_u_t__hash__handle.html" title="UT_hash_handle" alt="" coords="5,514,118,542"/>
+<area shape="rect" id="node32" href="$struct_u_t__hash__table.html" title="UT_hash_table" alt="" coords="517,537,619,565"/>
+<area shape="rect" id="node34" href="$struct_u_t__hash__bucket.html" title="UT_hash_bucket" alt="" coords="256,599,368,627"/>
+<area shape="rect" id="node39" href="$interface_c_c_action.html" title="CCAction" alt="" coords="24,382,99,410"/>
+<area shape="rect" id="node41" href="$protocol_c_c_accelerometer_delegate-p.html" title="\&lt;CCAccelerometerDelegate\&gt;" alt="" coords="777,311,957,339"/>
+<area shape="rect" id="node43" href="$protocol_c_c_touch_all_at_once_delegate-p.html" title="\&lt;CCTouchAllAtOnceDelegate\&gt;" alt="" coords="770,363,964,391"/>
+<area shape="rect" id="node45" href="$protocol_c_c_touch_one_by_one_delegate-p.html" title="\&lt;CCTouchOneByOneDelegate\&gt;" alt="" coords="769,415,964,443"/>
+</map>

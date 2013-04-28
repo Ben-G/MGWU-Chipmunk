@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['onachievementreported_3a',['onAchievementReported:',['../protocol_k_k_game_kit_helper_protocol-p.html#a70a392ab726cf0ff50b2bc6721ad59a6',1,'KKGameKitHelperProtocol-p']]],
+  ['onachievementsloaded_3a',['onAchievementsLoaded:',['../protocol_k_k_game_kit_helper_protocol-p.html#ae0a4424ea4a2f169da1af87f66041296',1,'KKGameKitHelperProtocol-p']]],
+  ['onachievementsviewdismissed',['onAchievementsViewDismissed',['../protocol_k_k_game_kit_helper_protocol-p.html#a2f436ca0ec801991e0acfc0f1521a74e',1,'KKGameKitHelperProtocol-p']]],
+  ['onfriendlistreceived_3a',['onFriendListReceived:',['../protocol_k_k_game_kit_helper_protocol-p.html#a652ac8f6dff12263e00e81017bc05d8e',1,'KKGameKitHelperProtocol-p']]],
+  ['onleaderboardviewdismissed',['onLeaderboardViewDismissed',['../protocol_k_k_game_kit_helper_protocol-p.html#af3b5e2acbdf646592f5f053583b65b01',1,'KKGameKitHelperProtocol-p']]],
+  ['onlocalplayerauthenticationchanged',['onLocalPlayerAuthenticationChanged',['../protocol_k_k_game_kit_helper_protocol-p.html#ae5eb7cab7f3583521a672ca6a4d8bf11',1,'KKGameKitHelperProtocol-p']]],
+  ['onmatchfound_3a',['onMatchFound:',['../protocol_k_k_game_kit_helper_protocol-p.html#a1b6e95418f02126a2fcedc6a134bfa00',1,'KKGameKitHelperProtocol-p']]],
+  ['onmatchmakingviewdismissed',['onMatchmakingViewDismissed',['../protocol_k_k_game_kit_helper_protocol-p.html#ab338f2275d31e33b2f242406c25f3154',1,'KKGameKitHelperProtocol-p']]],
+  ['onmatchmakingviewerror',['onMatchmakingViewError',['../protocol_k_k_game_kit_helper_protocol-p.html#ad8d1ef0eb4abe55a60bdb607729ab88c',1,'KKGameKitHelperProtocol-p']]],
+  ['onplayerconnected_3a',['onPlayerConnected:',['../protocol_k_k_game_kit_helper_protocol-p.html#a09cb76e4bb8f25503f846aebafc559cb',1,'KKGameKitHelperProtocol-p']]],
+  ['onplayerdisconnected_3a',['onPlayerDisconnected:',['../protocol_k_k_game_kit_helper_protocol-p.html#a920a5473eaa8016adb61639ff8916351',1,'KKGameKitHelperProtocol-p']]],
+  ['onplayerinforeceived_3a',['onPlayerInfoReceived:',['../protocol_k_k_game_kit_helper_protocol-p.html#ae381735433f0433ba5d456971d2a2ac3',1,'KKGameKitHelperProtocol-p']]],
+  ['onplayersaddedtomatch_3a',['onPlayersAddedToMatch:',['../protocol_k_k_game_kit_helper_protocol-p.html#a6fd2d50e4be79957041d33de380dca74',1,'KKGameKitHelperProtocol-p']]],
+  ['onreceiveddata_3afromplayer_3a',['onReceivedData:fromPlayer:',['../protocol_k_k_game_kit_helper_protocol-p.html#a311ece17062c56916a7475f0d382e8ba',1,'KKGameKitHelperProtocol-p']]],
+  ['onreceivedmatchmakingactivity_3a',['onReceivedMatchmakingActivity:',['../protocol_k_k_game_kit_helper_protocol-p.html#a67c6015eec65f01016886f33e7888b02',1,'KKGameKitHelperProtocol-p']]],
+  ['onresetachievements_3a',['onResetAchievements:',['../protocol_k_k_game_kit_helper_protocol-p.html#ab13f43e8563af1a4ae0e446e30e93349',1,'KKGameKitHelperProtocol-p']]],
+  ['onscoresreceived_3a',['onScoresReceived:',['../protocol_k_k_game_kit_helper_protocol-p.html#a1985718ad3b7c4e0b13c1f8cf6750a65',1,'KKGameKitHelperProtocol-p']]],
+  ['onscoressubmitted_3a',['onScoresSubmitted:',['../protocol_k_k_game_kit_helper_protocol-p.html#a9995ed89d23bcfe4d73fd75fdc3b4174',1,'KKGameKitHelperProtocol-p']]],
+  ['onstartmatch',['onStartMatch',['../protocol_k_k_game_kit_helper_protocol-p.html#aab845a7898ef10818abc31ef4402b03a',1,'KKGameKitHelperProtocol-p']]]
+];

@@ -1,0 +1,37 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interface_c_c_sprite_batch_node.html" title="CCSpriteBatchNode" alt="" coords="1149,390,1280,418"/>
+<area shape="rect" id="node79" href="$interface_c_c_sprite.html" title="CCSprite" alt="" coords="1446,283,1517,311"/>
+<area shape="rect" id="node4" href="$interface_c_c_node.html" title="CCNode" alt="" coords="909,361,977,389"/>
+<area shape="rect" id="node81" href="$interface_c_c_node_r_g_b_a.html" title="CCNodeRGBA" alt="" coords="1162,141,1267,169"/>
+<area shape="rect" id="node7" href="$interface_c_c_grid_base.html" title="CCGridBase" alt="" coords="609,230,698,258"/>
+<area shape="rect" id="node9" href="$interface_c_c_grabber.html" title="CCGrabber" alt="" coords="295,282,377,310"/>
+<area shape="rect" id="node11" href="$interface_c_c_texture2_d.html" title="CCTexture2D" alt="" coords="288,157,384,185"/>
+<area shape="rect" id="node48" href="$interface_c_c_texture_atlas.html" title="CCTextureAtlas" alt="" coords="888,158,997,186"/>
+<area shape="rect" id="node13" href="$interface_c_c_g_l_program.html" title="CCGLProgram" alt="" coords="10,219,113,247"/>
+<area shape="rect" id="node16" href="$interface_c_c_array.html" title="CCArray" alt="" coords="618,490,688,518"/>
+<area shape="rect" id="node18" href="$structcc_array.html" title="ccArray" alt="" coords="29,445,93,473"/>
+<area shape="rect" id="node27" href="$structt_hash_element.html" title="tHashElement" alt="" coords="288,406,384,434"/>
+<area shape="rect" id="node20" href="$interface_c_c_camera.html" title="CCCamera" alt="" coords="613,282,694,310"/>
+<area shape="rect" id="node22" href="$interface_c_c_scheduler.html" title="CCScheduler" alt="" coords="607,438,700,466"/>
+<area shape="rect" id="node25" href="$interface_c_c_action_manager.html" title="CCActionManager" alt="" coords="592,386,715,414"/>
+<area shape="rect" id="node29" href="$struct_u_t__hash__handle.html" title="UT_hash_handle" alt="" coords="5,622,118,650"/>
+<area shape="rect" id="node32" href="$struct_u_t__hash__table.html" title="UT_hash_table" alt="" coords="602,594,705,622"/>
+<area shape="rect" id="node34" href="$struct_u_t__hash__bucket.html" title="UT_hash_bucket" alt="" coords="280,535,392,563"/>
+<area shape="rect" id="node67" href="$structt_c_c_kerning_hash_element.html" title="tCCKerningHashElement" alt="" coords="257,769,415,797"/>
+<area shape="rect" id="node70" href="$structt_c_c_font_def_hash_element.html" title="tCCFontDefHashElement" alt="" coords="256,821,416,849"/>
+<area shape="rect" id="node39" href="$interface_c_c_action.html" title="CCAction" alt="" coords="24,373,99,401"/>
+<area shape="rect" id="node41" href="$protocol_c_c_texture_protocol-p.html" title="\&lt;CCTextureProtocol\&gt;" alt="" coords="872,542,1013,570"/>
+<area shape="rect" id="node43" href="$protocol_c_c_blend_protocol-p.html" title="\&lt;CCBlendProtocol\&gt;" alt="" coords="588,542,719,570"/>
+<area shape="rect" id="node45" href="$structcc_blend_func.html" title="Blend Function used for textures." alt="" coords="897,413,989,441"/>
+<area shape="rect" id="node51" href="$structcc_v3_f___c4_b___t2_f___quad.html" title="4 ccVertex3FTex2FColor4B" alt="" coords="577,59,730,87"/>
+<area shape="rect" id="node53" href="$structcc_v3_f___c4_b___t2_f.html" title="a Point with a vertex point, a tex coord point and a color 4B" alt="" coords="278,59,394,87"/>
+<area shape="rect" id="node55" href="$structcc_color4_b.html" title="ccColor4B" alt="" coords="22,59,101,87"/>
+<area shape="rect" id="node57" href="$structcc_vertex3_f.html" title="ccVertex3F" alt="" coords="20,111,103,139"/>
+<area shape="rect" id="node59" href="$structcc_tex2_f.html" title="ccTex2F" alt="" coords="27,7,95,35"/>
+<area shape="rect" id="node61" href="$protocol_c_c_label_protocol-p.html" title="\&lt;CCLabelProtocol\&gt;" alt="" coords="1416,649,1546,677"/>
+<area shape="rect" id="node63" href="$protocol_c_c_r_g_b_a_protocol-p.html" title="CC RGBA protocol." alt="" coords="874,27,1011,55"/>
+<area shape="rect" id="node65" href="$interface_c_c_b_m_font_configuration.html" title="CCBMFontConfiguration" alt="" coords="574,743,733,771"/>
+<area shape="rect" id="node73" href="$structcc_b_m_font_def.html" title="ccBMFontDef" alt="" coords="12,821,111,849"/>
+<area shape="rect" id="node75" href="$structcc_b_m_font_padding.html" title="ccBMFontPadding" alt="" coords="275,717,397,745"/>
+<area shape="rect" id="node77" href="$structcc_color3_b.html" title="ccColor3B" alt="" coords="903,89,982,117"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interface_c_c_layer_color.html" title="CCLayerColor" alt="" coords="204,135,305,163"/>
+<area shape="rect" id="node7" href="$protocol_c_c_texture_protocol-p.html" title="\&lt;CCTextureProtocol\&gt;" alt="" coords="184,239,325,267"/>
+<area shape="rect" id="node5" href="$interface_c_c_layer_gradient.html" title="CCLayerGradient" alt="" coords="386,83,502,111"/>
+<area shape="rect" id="node9" href="$interface_c_c_atlas_node.html" title="CCAtlasNode" alt="" coords="396,135,492,163"/>
+<area shape="rect" id="node15" href="$interface_c_c_motion_streak.html" title="CCMotionStreak" alt="" coords="388,187,500,215"/>
+<area shape="rect" id="node17" href="$interface_c_c_particle_batch_node.html" title="CCParticleBatchNode" alt="" coords="374,239,514,267"/>
+<area shape="rect" id="node19" href="$interface_c_c_particle_system.html" title="CCParticleSystem" alt="" coords="384,291,504,319"/>
+<area shape="rect" id="node45" href="$interface_c_c_sprite.html" title="CCSprite" alt="" coords="409,343,479,371"/>
+<area shape="rect" id="node51" href="$interface_c_c_sprite_batch_node.html" title="CCSpriteBatchNode" alt="" coords="379,421,509,449"/>
+<area shape="rect" id="node11" href="$interface_c_c_label_atlas.html" title="CCLabelAtlas" alt="" coords="589,110,686,138"/>
+<area shape="rect" id="node13" href="$interface_c_c_tile_map_atlas.html" title="CCTileMapAtlas" alt="" coords="581,162,694,190"/>
+<area shape="rect" id="node21" href="$interface_c_c_particle_system_quad.html" title="CCParticleSystemQuad" alt="" coords="563,265,711,293"/>
+<area shape="rect" id="node23" href="$interface_c_c_particle_explosion.html" title="An explosion particle system." alt="" coords="760,5,894,33"/>
+<area shape="rect" id="node25" href="$interface_c_c_particle_fire.html" title="A fire particle system." alt="" coords="776,57,877,85"/>
+<area shape="rect" id="node27" href="$interface_c_c_particle_fireworks.html" title="A fireworks particle system." alt="" coords="760,109,894,137"/>
+<area shape="rect" id="node29" href="$interface_c_c_particle_flower.html" title="A flower particle system." alt="" coords="768,161,885,189"/>
+<area shape="rect" id="node31" href="$interface_c_c_particle_galaxy.html" title="A galaxy particle system." alt="" coords="767,213,886,241"/>
+<area shape="rect" id="node33" href="$interface_c_c_particle_meteor.html" title="A meteor particle system." alt="" coords="767,265,886,293"/>
+<area shape="rect" id="node35" href="$interface_c_c_particle_rain.html" title="A rain particle system." alt="" coords="774,317,879,345"/>
+<area shape="rect" id="node37" href="$interface_c_c_particle_smoke.html" title="An smoke particle system." alt="" coords="768,369,885,397"/>
+<area shape="rect" id="node39" href="$interface_c_c_particle_snow.html" title="An snow particle system." alt="" coords="772,421,882,449"/>
+<area shape="rect" id="node41" href="$interface_c_c_particle_spiral.html" title="An spiral particle system." alt="" coords="771,473,883,501"/>
+<area shape="rect" id="node43" href="$interface_c_c_particle_sun.html" title="A sun particle system." alt="" coords="776,525,877,553"/>
+<area shape="rect" id="node47" href="$interface_c_c_label_t_t_f.html" title="CCLabelTTF" alt="" coords="591,317,684,345"/>
+<area shape="rect" id="node49" href="$interface_c_c_physics_sprite.html" title="CCPhysicsSprite" alt="" coords="581,369,693,397"/>
+<area shape="rect" id="node53" href="$interface_c_c_label_b_m_font.html" title="CCLabelBMFont" alt="" coords="580,421,695,449"/>
+<area shape="rect" id="node55" href="$interface_c_c_t_m_x_layer.html" title="CCTMXLayer" alt="" coords="587,473,687,501"/>
+</map>

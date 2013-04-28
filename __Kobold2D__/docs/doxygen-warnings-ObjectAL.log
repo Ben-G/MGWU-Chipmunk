@@ -1,0 +1,5 @@
+"\/depot-kobold2d/Kobold2D_Packages/Kobold2D-2.1.0/__Kobold2D__/libs/ObjectAL-for-iPhone/ObjectAL/ObjectAL.h:\12: warning: \warning: Compound ObjectAL is not documented."
+"\/depot-kobold2d/Kobold2D_Packages/Kobold2D-2.1.0/__Kobold2D__/libs/ObjectAL-for-iPhone/ObjectAL/ObjectAL/OpenAL/ALListener.h:\49: warning: \warning: Member context (variable) of class ALListener is not documented."
+"\/depot-kobold2d/Kobold2D_Packages/Kobold2D-2.1.0/__Kobold2D__/libs/ObjectAL-for-iPhone/ObjectAL/ObjectAL/Session/OALAudioSession.h:\54: warning: \warning: Member audioSessionDelegate (variable) of class OALAudioSession is not documented."
+"\/depot-kobold2d/Kobold2D_Packages/Kobold2D-2.1.0/__Kobold2D__/libs/ObjectAL-for-iPhone/ObjectAL/ObjectAL/Actions/OALUtilityActions.h:\42: warning: \warning: Member forcedTarget (variable) of class OALTargetedAction is not documented."
+"\/depot-kobold2d/Kobold2D_Packages/Kobold2D-2.1.0/__Kobold2D__/libs/ObjectAL-for-iPhone/ObjectAL/ObjectAL/OpenAL/OpenALManager.h:\52: warning: \warning: Member currentContext (variable) of class OpenALManager is not documented."

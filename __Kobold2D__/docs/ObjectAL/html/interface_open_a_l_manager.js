@@ -1,0 +1,26 @@
+var interface_open_a_l_manager =
+[
+    [ "bufferAsyncFromFile:reduceToMono:target:selector:", "interface_open_a_l_manager.html#ad4bdc94454b552963b98d516f6cdb9d9", null ],
+    [ "bufferAsyncFromFile:target:selector:", "interface_open_a_l_manager.html#a2fb62cc667421edaecab0e4d9858f13a", null ],
+    [ "bufferAsyncFromUrl:reduceToMono:target:selector:", "interface_open_a_l_manager.html#a602d455bfa81c0eaf907d0b6b075779a", null ],
+    [ "bufferAsyncFromUrl:target:selector:", "interface_open_a_l_manager.html#adb7ee2028e87fd894e9a23f43d16d7d2", null ],
+    [ "bufferFromFile:", "interface_open_a_l_manager.html#a88cb8742c3473ef5cd9da683bac639ed", null ],
+    [ "bufferFromFile:reduceToMono:", "interface_open_a_l_manager.html#aeae25ca1a41e6aa4ba063083e354cce2", null ],
+    [ "bufferFromUrl:", "interface_open_a_l_manager.html#ab53b2ed1bf2fb0963e29855e99bf3f4c", null ],
+    [ "bufferFromUrl:reduceToMono:", "interface_open_a_l_manager.html#a279a5646b25c9e14d70e50ca81730c0f", null ],
+    [ "clearAllBuffers", "interface_open_a_l_manager.html#a8f3c38fa421175c405930e95049658e5", null ],
+    [ "notifyDeviceDeallocating:", "interface_open_a_l_manager.html#aed5070f014c7e61f407ead47578a5488", null ],
+    [ "notifyDeviceInitializing:", "interface_open_a_l_manager.html#a773c441d3b610d3ca6a0c179e64d6642", null ],
+    [ "SYNTHESIZE_SINGLETON_FOR_CLASS_HEADER", "interface_open_a_l_manager.html#a18884dfa07ef282316f3593d8ba8d0ab", null ],
+    [ "currentContext", "interface_open_a_l_manager.html#a45eba91d0055e1e47cde0bfd55413708", null ],
+    [ "devices", "interface_open_a_l_manager.html#a3a6b81d5ddd995244ee149fda9a1ef79", null ],
+    [ "operationQueue", "interface_open_a_l_manager.html#a48c911c086e6710fab08b812df0f56e1", null ],
+    [ "suspendHandler", "interface_open_a_l_manager.html#aca7215f96c208bf9fc6440c64fd1258d", null ],
+    [ "availableCaptureDevices", "interface_open_a_l_manager.html#a1a4ae19f04c78f87a8a736b9f86c5c8a", null ],
+    [ "availableDevices", "interface_open_a_l_manager.html#a91184d97a5b972a099f4132daae396a4", null ],
+    [ "currentContext", "interface_open_a_l_manager.html#adce59a553d6981434b8beea6eded85f5", null ],
+    [ "defaultCaptureDeviceSpecifier", "interface_open_a_l_manager.html#a39f7a00c3b0823974ea68967a9c8b2dc", null ],
+    [ "defaultDeviceSpecifier", "interface_open_a_l_manager.html#afaa7dc69ebab848c2c2622176dcbb1ff", null ],
+    [ "devices", "interface_open_a_l_manager.html#ad9cbb568315004822d85e02b9c8a22e0", null ],
+    [ "mixerOutputFrequency", "interface_open_a_l_manager.html#adcf16074e0d90b6d3ed6b116e9911cff", null ]
+];

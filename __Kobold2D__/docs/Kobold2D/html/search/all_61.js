@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['acceleration',['acceleration',['../interface_k_k_device_motion.html#abb6c01676ca693c7724e6a01ec8b0eda',1,'KKDeviceMotion::acceleration()'],['../interface_k_k_input.html#a9757fdcd0b733ba42cd157cc232d73a7',1,'KKInput::acceleration()']]],
+  ['accelerometeractive',['accelerometerActive',['../interface_k_k_input.html#a1f6bb724759670bfb9364774e049a5fa',1,'KKInput']]],
+  ['accelerometeravailable',['accelerometerAvailable',['../interface_k_k_input.html#aa0cb3f52b6d7783586abe179cd36ad6c',1,'KKInput']]],
+  ['acceptsmousemovedevents',['acceptsMouseMovedEvents',['../interface_k_k_input.html#ab52f3d64418ce7b5bab4c613a9a64250',1,'KKInput::acceptsMouseMovedEvents()'],['../interface_k_k_startup_config.html#ad3f18a8ffdd71fc9dfa2f0c2901f7a3c',1,'KKStartupConfig::acceptsMouseMovedEvents()']]],
+  ['achievements',['achievements',['../interface_k_k_game_kit_helper.html#aff1619ea13a49560fea870eade698635',1,'KKGameKitHelper']]],
+  ['addplayerstomatch_3a',['addPlayersToMatch:',['../interface_k_k_game_kit_helper.html#a562188196c7131284ee7ccc1859b6415',1,'KKGameKitHelper']]],
+  ['admobfirstaddelay',['adMobFirstAdDelay',['../interface_k_k_startup_config.html#aefceb79f0d2eef133dad62f5c106a6ea',1,'KKStartupConfig']]],
+  ['admobpublisherid',['adMobPublisherID',['../interface_k_k_startup_config.html#a72886281121a6dd54e80523ba847307a',1,'KKStartupConfig']]],
+  ['admobrefreshrate',['adMobRefreshRate',['../interface_k_k_startup_config.html#ae5fe083e4249f3af30701644fb609a60',1,'KKStartupConfig']]],
+  ['admobtestmode',['adMobTestMode',['../interface_k_k_startup_config.html#abacce02a53bdcc412a68b850c3cc8804',1,'KKStartupConfig']]],
+  ['adproviders',['adProviders',['../interface_k_k_startup_config.html#aa136dc556dff9ac2d46693fc42e4f279',1,'KKStartupConfig']]],
+  ['alternateview',['alternateView',['../interface_k_k_app_delegate.html#a84ebd0bcf9bab721ed552459dc3b03cc',1,'KKAppDelegate']]],
+  ['animationwithfiles_3aframecount_3adelay_3a',['animationWithFiles:frameCount:delay:',['../interface_c_c_animation_07_kobold_extensions_08.html#adc5f76e54afb365ed9c0080ef35a227b',1,'CCAnimation(KoboldExtensions)']]],
+  ['animationwithframes_3aframecount_3adelay_3a',['animationWithFrames:frameCount:delay:',['../interface_c_c_animation_07_kobold_extensions_08.html#a83606b44d66f930defcff867ebce0bae',1,'CCAnimation(KoboldExtensions)']]],
+  ['animationwithname_3aformat_3anumframes_3afirstindex_3adelay_3a',['animationWithName:format:numFrames:firstIndex:delay:',['../interface_c_c_animation_07_kobold_extensions_08.html#a2789d68562a90feac2416c57725e5338',1,'CCAnimation(KoboldExtensions)']]],
+  ['anytouchbeganthisframe',['anyTouchBeganThisFrame',['../interface_k_k_input.html#ac7f45da7de953458604b1fc0d6b34347',1,'KKInput']]],
+  ['anytouchendedthisframe',['anyTouchEndedThisFrame',['../interface_k_k_input.html#a7ccf1126a67590d35aec215ae5102d2c',1,'KKInput']]],
+  ['anytouchlocation',['anyTouchLocation',['../interface_k_k_input.html#a8791b61ce4b97d310ffcdd0c08125a9f',1,'KKInput']]],
+  ['appstoreurlforsearchterm_3a',['appStoreURLforSearchTerm:',['../interface_k_k_app_store_helper.html#a43333efa9b665fd9c3d6ef3a99dcdd4e',1,'KKAppStoreHelper']]],
+  ['artisturl_3a',['artistURL:',['../interface_k_k_app_store_helper.html#a92f72085406a5541dac869c77003cc6d',1,'KKAppStoreHelper']]],
+  ['attitude',['attitude',['../interface_k_k_device_motion.html#a17ea7bef210c9dfbfcba029d9cfdf62c',1,'KKDeviceMotion']]],
+  ['authenticatelocalplayer',['authenticateLocalPlayer',['../interface_k_k_game_kit_helper.html#a16a4f5fcb14493b1ee479ce1574c9a03',1,'KKGameKitHelper']]],
+  ['autoscale',['autoScale',['../interface_k_k_startup_config.html#a76a072313c3108a68c30a0ae6b7763ce',1,'KKStartupConfig']]]
+];

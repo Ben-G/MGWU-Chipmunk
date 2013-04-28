@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node13" href="$interface_c_c_label_t_t_f.html" title="CCLabelTTF" alt="" coords="132,238,224,266"/>
+<area shape="rect" id="node15" href="$interface_c_c_physics_sprite.html" title="CCPhysicsSprite" alt="" coords="249,238,360,266"/>
+<area shape="rect" id="node2" href="$interface_c_c_node_r_g_b_a.html" title="CCNodeRGBA" alt="" coords="113,83,217,111"/>
+<area shape="rect" id="node4" href="$interface_c_c_node.html" title="CCNode" alt="" coords="5,6,72,34"/>
+<area shape="rect" id="node6" href="$protocol_c_c_r_g_b_a_protocol-p.html" title="CC RGBA protocol." alt="" coords="97,6,233,34"/>
+<area shape="rect" id="node8" href="$protocol_c_c_texture_protocol-p.html" title="\&lt;CCTextureProtocol\&gt;" alt="" coords="247,83,387,111"/>
+<area shape="rect" id="node10" href="$protocol_c_c_blend_protocol-p.html" title="\&lt;CCBlendProtocol\&gt;" alt="" coords="257,6,388,34"/>
+</map>

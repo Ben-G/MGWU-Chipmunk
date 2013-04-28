@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interface_c_c_node.html" title="CCNode" alt="" coords="839,373,907,401"/>
+<area shape="rect" id="node5" href="$interface_c_c_grid_base.html" title="CCGridBase" alt="" coords="543,210,633,238"/>
+<area shape="rect" id="node7" href="$interface_c_c_grabber.html" title="CCGrabber" alt="" coords="273,185,356,213"/>
+<area shape="rect" id="node9" href="$interface_c_c_texture2_d.html" title="CCTexture2D" alt="" coords="266,133,363,161"/>
+<area shape="rect" id="node45" href="$interface_c_c_texture_atlas.html" title="CCTextureAtlas" alt="" coords="819,113,928,141"/>
+<area shape="rect" id="node11" href="$interface_c_c_g_l_program.html" title="CCGLProgram" alt="" coords="10,239,113,267"/>
+<area shape="rect" id="node14" href="$interface_c_c_array.html" title="CCArray" alt="" coords="408,353,478,381"/>
+<area shape="rect" id="node16" href="$structcc_array.html" title="ccArray" alt="" coords="29,371,93,399"/>
+<area shape="rect" id="node25" href="$structt_hash_element.html" title="tHashElement" alt="" coords="266,437,363,465"/>
+<area shape="rect" id="node18" href="$interface_c_c_camera.html" title="CCCamera" alt="" coords="548,469,628,497"/>
+<area shape="rect" id="node20" href="$interface_c_c_scheduler.html" title="CCScheduler" alt="" coords="542,521,634,549"/>
+<area shape="rect" id="node23" href="$interface_c_c_action_manager.html" title="CCActionManager" alt="" coords="527,417,649,445"/>
+<area shape="rect" id="node27" href="$struct_u_t__hash__handle.html" title="UT_hash_handle" alt="" coords="5,577,118,605"/>
+<area shape="rect" id="node30" href="$struct_u_t__hash__table.html" title="UT_hash_table" alt="" coords="537,586,639,614"/>
+<area shape="rect" id="node32" href="$struct_u_t__hash__bucket.html" title="UT_hash_bucket" alt="" coords="258,662,371,690"/>
+<area shape="rect" id="node37" href="$interface_c_c_action.html" title="CCAction" alt="" coords="24,445,99,473"/>
+<area shape="rect" id="node39" href="$protocol_c_c_texture_protocol-p.html" title="\&lt;CCTextureProtocol\&gt;" alt="" coords="803,425,944,453"/>
+<area shape="rect" id="node41" href="$protocol_c_c_blend_protocol-p.html" title="\&lt;CCBlendProtocol\&gt;" alt="" coords="522,638,654,666"/>
+<area shape="rect" id="node43" href="$structcc_blend_func.html" title="Blend Function used for textures." alt="" coords="827,477,919,505"/>
+<area shape="rect" id="node48" href="$structcc_v3_f___c4_b___t2_f___quad.html" title="4 ccVertex3FTex2FColor4B" alt="" coords="512,58,664,86"/>
+<area shape="rect" id="node50" href="$structcc_v3_f___c4_b___t2_f.html" title="a Point with a vertex point, a tex coord point and a color 4B" alt="" coords="256,58,373,86"/>
+<area shape="rect" id="node52" href="$structcc_color4_b.html" title="ccColor4B" alt="" coords="22,110,101,138"/>
+<area shape="rect" id="node54" href="$structcc_vertex3_f.html" title="ccVertex3F" alt="" coords="20,6,103,34"/>
+<area shape="rect" id="node56" href="$structcc_tex2_f.html" title="ccTex2F" alt="" coords="27,58,95,86"/>
+</map>

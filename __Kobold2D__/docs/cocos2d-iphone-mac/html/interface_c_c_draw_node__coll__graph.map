@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interface_c_c_node.html" title="CCNode" alt="" coords="793,289,861,317"/>
+<area shape="rect" id="node5" href="$interface_c_c_grid_base.html" title="CCGridBase" alt="" coords="523,86,613,114"/>
+<area shape="rect" id="node7" href="$interface_c_c_grabber.html" title="CCGrabber" alt="" coords="271,5,353,33"/>
+<area shape="rect" id="node9" href="$interface_c_c_texture2_d.html" title="CCTexture2D" alt="" coords="264,57,360,85"/>
+<area shape="rect" id="node11" href="$interface_c_c_g_l_program.html" title="CCGLProgram" alt="" coords="10,111,113,139"/>
+<area shape="rect" id="node14" href="$interface_c_c_array.html" title="CCArray" alt="" coords="402,259,472,287"/>
+<area shape="rect" id="node16" href="$structcc_array.html" title="ccArray" alt="" coords="29,305,93,333"/>
+<area shape="rect" id="node25" href="$structt_hash_element.html" title="tHashElement" alt="" coords="264,393,360,421"/>
+<area shape="rect" id="node18" href="$interface_c_c_camera.html" title="CCCamera" alt="" coords="528,289,608,317"/>
+<area shape="rect" id="node20" href="$interface_c_c_scheduler.html" title="CCScheduler" alt="" coords="522,341,614,369"/>
+<area shape="rect" id="node23" href="$interface_c_c_action_manager.html" title="CCActionManager" alt="" coords="507,393,629,421"/>
+<area shape="rect" id="node27" href="$struct_u_t__hash__handle.html" title="UT_hash_handle" alt="" coords="5,555,118,583"/>
+<area shape="rect" id="node30" href="$struct_u_t__hash__table.html" title="UT_hash_table" alt="" coords="517,601,619,629"/>
+<area shape="rect" id="node32" href="$struct_u_t__hash__bucket.html" title="UT_hash_bucket" alt="" coords="256,650,368,678"/>
+<area shape="rect" id="node37" href="$interface_c_c_action.html" title="CCAction" alt="" coords="24,393,99,421"/>
+<area shape="rect" id="node39" href="$structcc_blend_func.html" title="Blend Function used for textures." alt="" coords="781,375,873,403"/>
+<area shape="rect" id="node41" href="$structcc_v2_f___c4_b___t2_f.html" title="a Point with a vertex point, a tex coord point and a color 4B" alt="" coords="768,479,885,507"/>
+<area shape="rect" id="node43" href="$structcc_color4_b.html" title="ccColor4B" alt="" coords="528,445,608,473"/>
+<area shape="rect" id="node45" href="$structcc_vertex2_f.html" title="ccVertex2F" alt="" coords="526,497,610,525"/>
+<area shape="rect" id="node47" href="$structcc_tex2_f.html" title="ccTex2F" alt="" coords="534,549,602,577"/>
+</map>

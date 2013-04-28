@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$interface_c_c_particle_system_quad.html" title="CCParticleSystemQuad" alt="" coords="542,265,690,293"/>
+<area shape="rect" id="node2" href="$interface_c_c_node.html" title="CCNode" alt="" coords="221,238,289,266"/>
+<area shape="rect" id="node4" href="$protocol_c_c_texture_protocol-p.html" title="\&lt;CCTextureProtocol\&gt;" alt="" coords="184,290,325,318"/>
+<area shape="rect" id="node6" href="$protocol_c_c_blend_protocol-p.html" title="\&lt;CCBlendProtocol\&gt;" alt="" coords="5,290,136,318"/>
+<area shape="rect" id="node11" href="$interface_c_c_particle_explosion.html" title="An explosion particle system." alt="" coords="738,5,872,33"/>
+<area shape="rect" id="node13" href="$interface_c_c_particle_fire.html" title="A fire particle system." alt="" coords="755,57,856,85"/>
+<area shape="rect" id="node15" href="$interface_c_c_particle_fireworks.html" title="A fireworks particle system." alt="" coords="738,109,872,137"/>
+<area shape="rect" id="node17" href="$interface_c_c_particle_flower.html" title="A flower particle system." alt="" coords="747,161,864,189"/>
+<area shape="rect" id="node19" href="$interface_c_c_particle_galaxy.html" title="A galaxy particle system." alt="" coords="746,213,865,241"/>
+<area shape="rect" id="node21" href="$interface_c_c_particle_meteor.html" title="A meteor particle system." alt="" coords="746,265,865,293"/>
+<area shape="rect" id="node23" href="$interface_c_c_particle_rain.html" title="A rain particle system." alt="" coords="753,317,858,345"/>
+<area shape="rect" id="node25" href="$interface_c_c_particle_smoke.html" title="An smoke particle system." alt="" coords="747,369,864,397"/>
+<area shape="rect" id="node27" href="$interface_c_c_particle_snow.html" title="An snow particle system." alt="" coords="750,421,860,449"/>
+<area shape="rect" id="node29" href="$interface_c_c_particle_spiral.html" title="An spiral particle system." alt="" coords="749,473,861,501"/>
+<area shape="rect" id="node31" href="$interface_c_c_particle_sun.html" title="A sun particle system." alt="" coords="755,525,856,553"/>
+</map>

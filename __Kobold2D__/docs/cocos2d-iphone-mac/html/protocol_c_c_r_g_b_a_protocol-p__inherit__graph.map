@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interface_c_c_label_b_m_font.html" title="CCLabelBMFont" alt="" coords="189,5,304,33"/>
+<area shape="rect" id="node5" href="$interface_c_c_layer_r_g_b_a.html" title="CCLayerRGBA" alt="" coords="193,57,300,85"/>
+<area shape="rect" id="node13" href="$interface_c_c_menu_item_sprite.html" title="CCMenuItemSprite" alt="" coords="521,107,647,135"/>
+<area shape="rect" id="node17" href="$interface_c_c_menu_item_toggle.html" title="CCMenuItemToggle" alt="" coords="518,159,650,187"/>
+<area shape="rect" id="node19" href="$interface_c_c_node_r_g_b_a.html" title="CCNodeRGBA" alt="" coords="194,289,299,317"/>
+<area shape="rect" id="node7" href="$interface_c_c_layer_color.html" title="CCLayerColor" alt="" coords="360,5,461,33"/>
+<area shape="rect" id="node11" href="$interface_c_c_menu.html" title="CCMenu" alt="" coords="376,57,446,85"/>
+<area shape="rect" id="node9" href="$interface_c_c_layer_gradient.html" title="CCLayerGradient" alt="" coords="526,5,642,33"/>
+<area shape="rect" id="node15" href="$interface_c_c_menu_item_image.html" title="CCMenuItemImage" alt="" coords="708,107,836,135"/>
+<area shape="rect" id="node21" href="$interface_c_c_atlas_node.html" title="CCAtlasNode" alt="" coords="363,263,459,291"/>
+<area shape="rect" id="node27" href="$interface_c_c_menu_item.html" title="CCMenuItem" alt="" coords="363,211,458,239"/>
+<area shape="rect" id="node37" href="$interface_c_c_motion_streak.html" title="CCMotionStreak" alt="" coords="354,315,467,343"/>
+<area shape="rect" id="node39" href="$interface_c_c_progress_timer.html" title="CCProgressTimer" alt="" coords="352,367,469,395"/>
+<area shape="rect" id="node41" href="$interface_c_c_sprite.html" title="CCSprite" alt="" coords="375,419,446,447"/>
+<area shape="rect" id="node23" href="$interface_c_c_label_atlas.html" title="CCLabelAtlas" alt="" coords="535,263,633,291"/>
+<area shape="rect" id="node25" href="$interface_c_c_tile_map_atlas.html" title="CCTileMapAtlas" alt="" coords="527,315,641,343"/>
+<area shape="rect" id="node29" href="$interface_c_c_menu_item_label.html" title="CCMenuItemLabel" alt="" coords="521,211,647,239"/>
+<area shape="rect" id="node31" href="$interface_c_c_menu_item_atlas_font.html" title="CCMenuItemAtlasFont" alt="" coords="698,185,846,213"/>
+<area shape="rect" id="node33" href="$interface_c_c_menu_item_font.html" title="CCMenuItemFont" alt="" coords="712,237,832,265"/>
+<area shape="rect" id="node43" href="$interface_c_c_label_t_t_f.html" title="CCLabelTTF" alt="" coords="537,393,631,421"/>
+<area shape="rect" id="node45" href="$interface_c_c_physics_sprite.html" title="CCPhysicsSprite" alt="" coords="528,445,640,473"/>
+</map>

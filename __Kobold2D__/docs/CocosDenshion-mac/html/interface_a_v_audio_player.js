@@ -1,0 +1,25 @@
+var interface_a_v_audio_player =
+[
+    [ "averagePowerForChannel:", "interface_a_v_audio_player.html#a78d40ea02caf9d411e2baefe387889ae", null ],
+    [ "initWithContentsOfURL:error:", "interface_a_v_audio_player.html#acc59d397ab215e2f504f98ef30a3421e", null ],
+    [ "initWithData:error:", "interface_a_v_audio_player.html#a95be15158c647f547afb32a33027d3bc", null ],
+    [ "pause", "interface_a_v_audio_player.html#a37930dce6d99a80a8e122719557ff5fb", null ],
+    [ "peakPowerForChannel:", "interface_a_v_audio_player.html#ad946be3d56927da11b58f7178c17ee48", null ],
+    [ "play", "interface_a_v_audio_player.html#a1709d3f30063f1a8e4fc25a982671ef1", null ],
+    [ "playAtTime:", "interface_a_v_audio_player.html#ae1a39ce0e5aaa1f8d724e189ce4d8cb6", null ],
+    [ "prepareToPlay", "interface_a_v_audio_player.html#a2eff2cd91328e84c178465db9378c62f", null ],
+    [ "stop", "interface_a_v_audio_player.html#aa7f66efc827857acf11201e910a617d8", null ],
+    [ "updateMeters", "interface_a_v_audio_player.html#a13720271f27a5c8985b2f13c1ba87ce6", null ],
+    [ "currentTime", "interface_a_v_audio_player.html#a7c5138f521f7e1f2ab08fe764059043e", null ],
+    [ "data", "interface_a_v_audio_player.html#ade1940298cd75a9a599f3fe8dd227dee", null ],
+    [ "delegate", "interface_a_v_audio_player.html#a65bd06b9a2a048570aaafee6d5ba424f", null ],
+    [ "deviceCurrentTime", "interface_a_v_audio_player.html#ac634273a695c34fa0098b763b399db73", null ],
+    [ "duration", "interface_a_v_audio_player.html#aa2112278bbc625b08c3dc6cb64d26ebb", null ],
+    [ "meteringEnabled", "interface_a_v_audio_player.html#a7246a659c44b9506c5b0ad30edf79a3a", null ],
+    [ "numberOfChannels", "interface_a_v_audio_player.html#a411f4129e29c049e92bc1a3e95983f8b", null ],
+    [ "numberOfLoops", "interface_a_v_audio_player.html#a66b9a67aaec9a04942bf77dbdd0eb422", null ],
+    [ "pan", "interface_a_v_audio_player.html#a4b1bcd498b54fc6001e4c3eab654fc4c", null ],
+    [ "playing", "interface_a_v_audio_player.html#a17d460e39d773efe208b8c887f242806", null ],
+    [ "url", "interface_a_v_audio_player.html#a959fd2064ea67a2453c97f5dfd7f170a", null ],
+    [ "volume", "interface_a_v_audio_player.html#abadccc784d93bb8b29f62acb6020bdc9", null ]
+];

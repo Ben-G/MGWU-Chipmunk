@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node13" href="$interface_c_c_layer_multiplex.html" title="CCLayerMultiplex" alt="" coords="360,82,483,110"/>
+<area shape="rect" id="node15" href="$interface_c_c_layer_r_g_b_a.html" title="CCLayerRGBA" alt="" coords="368,134,475,162"/>
+<area shape="rect" id="node2" href="$interface_c_c_node.html" title="CCNode" alt="" coords="65,5,133,33"/>
+<area shape="rect" id="node4" href="$protocol_c_c_keyboard_event_delegate-p.html" title="\&lt;CCKeyboardEventDelegate\&gt;" alt="" coords="6,57,191,85"/>
+<area shape="rect" id="node6" href="$protocol_c_c_mouse_event_delegate-p.html" title="\&lt;CCMouseEventDelegate\&gt;" alt="" coords="14,109,183,137"/>
+<area shape="rect" id="node8" href="$protocol_c_c_touch_event_delegate-p.html" title="\&lt;CCTouchEventDelegate\&gt;" alt="" coords="15,161,182,189"/>
+<area shape="rect" id="node10" href="$protocol_c_c_gesture_event_delegate-p.html" title="\&lt;CCGestureEventDelegate\&gt;" alt="" coords="12,213,186,241"/>
+<area shape="rect" id="node17" href="$interface_c_c_layer_color.html" title="CCLayerColor" alt="" coords="531,107,632,135"/>
+<area shape="rect" id="node21" href="$interface_c_c_menu.html" title="CCMenu" alt="" coords="546,159,616,187"/>
+<area shape="rect" id="node19" href="$interface_c_c_layer_gradient.html" title="CCLayerGradient" alt="" coords="680,107,797,135"/>
+</map>

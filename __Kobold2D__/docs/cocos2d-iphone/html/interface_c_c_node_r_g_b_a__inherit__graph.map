@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$interface_c_c_atlas_node.html" title="CCAtlasNode" alt="" coords="355,57,451,85"/>
+<area shape="rect" id="node13" href="$interface_c_c_menu_item.html" title="CCMenuItem" alt="" coords="355,135,450,163"/>
+<area shape="rect" id="node27" href="$interface_c_c_motion_streak.html" title="CCMotionStreak" alt="" coords="346,187,459,215"/>
+<area shape="rect" id="node29" href="$interface_c_c_progress_timer.html" title="CCProgressTimer" alt="" coords="344,239,461,267"/>
+<area shape="rect" id="node31" href="$interface_c_c_sprite.html" title="CCSprite" alt="" coords="367,291,438,319"/>
+<area shape="rect" id="node2" href="$interface_c_c_node.html" title="CCNode" alt="" coords="39,161,107,189"/>
+<area shape="rect" id="node4" href="$protocol_c_c_r_g_b_a_protocol-p.html" title="CC RGBA protocol." alt="" coords="5,213,142,241"/>
+<area shape="rect" id="node9" href="$interface_c_c_label_atlas.html" title="CCLabelAtlas" alt="" coords="527,5,625,33"/>
+<area shape="rect" id="node11" href="$interface_c_c_tile_map_atlas.html" title="CCTileMapAtlas" alt="" coords="519,57,633,85"/>
+<area shape="rect" id="node15" href="$interface_c_c_menu_item_label.html" title="CCMenuItemLabel" alt="" coords="513,109,639,137"/>
+<area shape="rect" id="node21" href="$interface_c_c_menu_item_sprite.html" title="CCMenuItemSprite" alt="" coords="513,161,639,189"/>
+<area shape="rect" id="node25" href="$interface_c_c_menu_item_toggle.html" title="CCMenuItemToggle" alt="" coords="510,213,642,241"/>
+<area shape="rect" id="node17" href="$interface_c_c_menu_item_atlas_font.html" title="CCMenuItemAtlasFont" alt="" coords="690,57,838,85"/>
+<area shape="rect" id="node19" href="$interface_c_c_menu_item_font.html" title="CCMenuItemFont" alt="" coords="704,109,824,137"/>
+<area shape="rect" id="node23" href="$interface_c_c_menu_item_image.html" title="CCMenuItemImage" alt="" coords="700,161,828,189"/>
+<area shape="rect" id="node33" href="$interface_c_c_label_t_t_f.html" title="CCLabelTTF" alt="" coords="529,278,623,306"/>
+<area shape="rect" id="node35" href="$interface_c_c_physics_sprite.html" title="CCPhysicsSprite" alt="" coords="520,330,632,358"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interface_c_c_transition_scene.html" title="CCTransitionScene" alt="" coords="409,494,535,522"/>
+<area shape="rect" id="node4" href="$interface_c_c_scene.html" title="CCScene" alt="" coords="469,385,539,413"/>
+<area shape="rect" id="node6" href="$interface_c_c_node.html" title="CCNode" alt="" coords="470,305,537,333"/>
+<area shape="rect" id="node9" href="$interface_c_c_grid_base.html" title="CCGridBase" alt="" coords="166,211,255,239"/>
+<area shape="rect" id="node11" href="$interface_c_c_grabber.html" title="CCGrabber" alt="" coords="5,102,88,130"/>
+<area shape="rect" id="node13" href="$interface_c_c_texture2_d.html" title="CCTexture2D" alt="" coords="112,102,208,130"/>
+<area shape="rect" id="node15" href="$interface_c_c_g_l_program.html" title="CCGLProgram" alt="" coords="205,7,307,35"/>
+<area shape="rect" id="node18" href="$interface_c_c_array.html" title="CCArray" alt="" coords="530,157,600,185"/>
+<area shape="rect" id="node20" href="$structcc_array.html" title="ccArray" alt="" coords="581,7,645,35"/>
+<area shape="rect" id="node29" href="$structt_hash_element.html" title="tHashElement" alt="" coords="720,102,816,130"/>
+<area shape="rect" id="node22" href="$interface_c_c_camera.html" title="CCCamera" alt="" coords="522,211,603,239"/>
+<area shape="rect" id="node24" href="$interface_c_c_scheduler.html" title="CCScheduler" alt="" coords="627,211,719,239"/>
+<area shape="rect" id="node27" href="$interface_c_c_action_manager.html" title="CCActionManager" alt="" coords="744,211,867,239"/>
+<area shape="rect" id="node31" href="$struct_u_t__hash__handle.html" title="UT_hash_handle" alt="" coords="865,7,977,35"/>
+<area shape="rect" id="node34" href="$struct_u_t__hash__table.html" title="UT_hash_table" alt="" coords="905,211,1007,239"/>
+<area shape="rect" id="node36" href="$struct_u_t__hash__bucket.html" title="UT_hash_bucket" alt="" coords="997,102,1109,130"/>
+<area shape="rect" id="node41" href="$interface_c_c_action.html" title="CCAction" alt="" coords="705,7,780,35"/>
+</map>

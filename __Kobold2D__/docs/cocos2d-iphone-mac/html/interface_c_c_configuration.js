@@ -1,0 +1,25 @@
+var interface_c_c_configuration =
+[
+    [ "checkForGLExtension:", "interface_c_c_configuration.html#ad2e12cee4ed69634622b1626246b4554", null ],
+    [ "dumpInfo", "interface_c_c_configuration.html#af666a14699e87c7447885af29cbaf16c", null ],
+    [ "runningDevice", "interface_c_c_configuration.html#ab1ab1c7d201f2a403b53ec526e7246a5", null ],
+    [ "sharedConfiguration", "interface_c_c_configuration.html#ac72a28a648a05b877378ef484aa4ffd8", null ],
+    [ "_maxSamplesAllowed", "interface_c_c_configuration.html#aaf6da56ecebea8de987617a0ee792469", null ],
+    [ "_maxTextureSize", "interface_c_c_configuration.html#a6453b6a002b1dc1147e3154510fc187e", null ],
+    [ "_maxTextureUnits", "interface_c_c_configuration.html#a677ae1a72b817fa2cd24a8e29a0f32fc", null ],
+    [ "_openGLInitialized", "interface_c_c_configuration.html#a6dcde2d51a209125a155d3ffab171809", null ],
+    [ "_OSVersion", "interface_c_c_configuration.html#a025b36c7f30e77572b0b247c3c5283b9", null ],
+    [ "_supportsBGRA8888", "interface_c_c_configuration.html#a5cb20fd135a28499edf0d22fc7c079cf", null ],
+    [ "_supportsDiscardFramebuffer", "interface_c_c_configuration.html#acc58e50450fdcfc3df1affe97ef36e9a", null ],
+    [ "_supportsNPOT", "interface_c_c_configuration.html#a190c147c2138baabde798bf5d06d625f", null ],
+    [ "_supportsPVRTC", "interface_c_c_configuration.html#a7daec168de0130919d7006768f669d3f", null ],
+    [ "_supportsShareableVAO", "interface_c_c_configuration.html#a1cb11dc7ee7519522affea27f85246bd", null ],
+    [ "maxTextureSize", "interface_c_c_configuration.html#a247ddc51eeee101083716888f52c1ccb", null ],
+    [ "maxTextureUnits", "interface_c_c_configuration.html#a1fab22b6a96c7b4b85e120df26291612", null ],
+    [ "OSVersion", "interface_c_c_configuration.html#a702f8067990021f6ad4366c8ea8033f4", null ],
+    [ "supportsBGRA8888", "interface_c_c_configuration.html#a7bf4ed17273b9cf0e24333444bf03bb9", null ],
+    [ "supportsDiscardFramebuffer", "interface_c_c_configuration.html#a458fe46160b0950264f13aecd60ecf60", null ],
+    [ "supportsNPOT", "interface_c_c_configuration.html#a9de282307e774c7274bead01371c242e", null ],
+    [ "supportsPVRTC", "interface_c_c_configuration.html#a2d9f6433a251a61dfb1b120aed830840", null ],
+    [ "supportsShareableVAO", "interface_c_c_configuration.html#a9f955f4b66edfc2391c08df18cddad62", null ]
+];

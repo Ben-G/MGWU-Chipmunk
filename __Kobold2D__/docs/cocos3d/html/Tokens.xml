@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+  <Token>
+    <TokenIdentifier>
+      <Name>Cocos3DDummyClass</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Cocos3DDummyClass</Scope>
+    </TokenIdentifier>
+    <Path>interface_cocos3_d_dummy_class.html</Path>
+    <Abstract>Currently cocos3d is incompatible with cocos2d v1.1 and 2.0 and therefore unavailable in this version...</Abstract>
+    <DeclaredIn>Cocos3DDummyClass.h</DeclaredIn>
+  </Token>
+</Tokens>
