@@ -4629,7 +4629,7 @@
 		DC8B5B0A13A90ADA00F86331 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = DC8B5B0D13A90ADA00F86331 /* Build configuration list for PBXProject "Kobold2D-Libraries" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -5511,6 +5511,7 @@
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_SIGN_COMPARE = NO;
@@ -5526,6 +5527,7 @@
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_SIGN_COMPARE = NO;
@@ -5589,6 +5591,7 @@
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/Chipmunk/include/chipmunk";
@@ -5600,6 +5603,7 @@
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/Chipmunk/include/chipmunk";
@@ -5641,6 +5645,7 @@
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/Chipmunk/include/chipmunk \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/cocos2d \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/external/kazmath/include";
@@ -5652,6 +5657,7 @@
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/Chipmunk/include/chipmunk \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/cocos2d \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/external/kazmath/include";
@@ -5680,6 +5686,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -5688,6 +5695,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -5719,6 +5727,7 @@
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/cocos2d \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/external/kazmath/include";
 			};
@@ -5729,6 +5738,7 @@
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/cocos2d \"$(SOURCE_ROOT)\"/libs/cocos2d-iphone/external/kazmath/include";
 			};
@@ -5765,6 +5775,7 @@
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_SIGN_COMPARE = NO;
 				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
@@ -5778,6 +5789,7 @@
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_SIGN_COMPARE = NO;
 				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
@@ -5835,6 +5847,7 @@
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/Box2D";
@@ -5846,6 +5859,7 @@
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SOURCE_ROOT)\"/libs/Box2D";
@@ -5885,6 +5899,7 @@
 			baseConfigurationReference = DCAEDF2113A9FB5300FEC740 /* Common-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_SIGN_COMPARE = NO;
 				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
@@ -5899,6 +5914,7 @@
 			baseConfigurationReference = DCAEDF2413A9FB5300FEC740 /* Common-Release-Mac.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_SIGN_COMPARE = NO;
 				GCC_WARN_STRICT_SELECTOR_MATCH = NO;

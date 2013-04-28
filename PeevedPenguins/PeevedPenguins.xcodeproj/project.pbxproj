@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62C169AB172D7EB200551FAC /* StartMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62C169A9172D7EB200551FAC /* StartMenuLayer.mm */; };
+		62C169AD172D802600551FAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169AC172D802600551FAC /* Default-568h@2x.png */; };
 		AA3296F515CEC40D00DEE33D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D615CEC40D00DEE33D /* config.lua */; };
 		AA3296F615CEC40D00DEE33D /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D715CEC40D00DEE33D /* explo2.wav */; };
 		AA3296F715CEC40D00DEE33D /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D915CEC40D00DEE33D /* background-hd.png */; };
@@ -76,6 +78,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62C169A9172D7EB200551FAC /* StartMenuLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StartMenuLayer.mm; path = Menues/StartMenuLayer.mm; sourceTree = "<group>"; };
+		62C169AA172D7EB200551FAC /* StartMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartMenuLayer.h; path = Menues/StartMenuLayer.h; sourceTree = "<group>"; };
+		62C169AC172D802600551FAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AA3296D615CEC40D00DEE33D /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
 		AA3296D715CEC40D00DEE33D /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		AA3296D915CEC40D00DEE33D /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hd.png"; sourceTree = "<group>"; };
@@ -196,6 +201,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62C169A8172D7D7300551FAC /* Menues */ = {
+			isa = PBXGroup;
+			children = (
+				62C169A9172D7EB200551FAC /* StartMenuLayer.mm */,
+				62C169AA172D7EB200551FAC /* StartMenuLayer.h */,
+			);
+			name = Menues;
+			sourceTree = "<group>";
+		};
 		AA3296D515CEC40D00DEE33D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +258,7 @@
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
+				62C169AC172D802600551FAC /* Default-568h@2x.png */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
@@ -325,6 +340,7 @@
 		DCC1A38C13A94F1A005BD75D /* Projectfiles */ = {
 			isa = PBXGroup;
 			children = (
+				62C169A8172D7D7300551FAC /* Menues */,
 				AA47749C15CED021009A911F /* AppDelegate.h */,
 				AA47749D15CED021009A911F /* AppDelegate.m */,
 				AA47749E15CED021009A911F /* Box2DDebugLayer.h */,
@@ -464,6 +480,7 @@
 				AA32971015CEC40D00DEE33D /* taperedblock.png in Resources */,
 				AA32971115CEC40D00DEE33D /* waitingpenguin-hd.png in Resources */,
 				AA32971215CEC40D00DEE33D /* waitingpenguin.png in Resources */,
+				62C169AD172D802600551FAC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +508,7 @@
 				AA4774AC15CED021009A911F /* GameLayer.mm in Sources */,
 				AA4774AD15CED021009A911F /* GLES-Render.mm in Sources */,
 				AA4774AE15CED021009A911F /* main.m in Sources */,
+				62C169AB172D7EB200551FAC /* StartMenuLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
