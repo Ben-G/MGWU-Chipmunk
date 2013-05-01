@@ -16,6 +16,10 @@
 		62C169BC1731555B00551FAC /* main_menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B81731555B00551FAC /* main_menu_button.png */; };
 		62C169BF1731642600551FAC /* Level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C169BE1731642600551FAC /* Level1.plist */; };
 		62C169C11731643900551FAC /* Level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C01731643900551FAC /* Level2.plist */; };
+		62C169C61731754100551FAC /* bearframes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C41731754100551FAC /* bearframes.plist */; };
+		62C169C71731754100551FAC /* bearframes.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C51731754100551FAC /* bearframes.png */; };
+		62C169CA173175AE00551FAC /* bearframes-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C8173175AE00551FAC /* bearframes-hd.plist */; };
+		62C169CB173175AE00551FAC /* bearframes-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C9173175AE00551FAC /* bearframes-hd.png */; };
 		AA3296F515CEC40D00DEE33D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D615CEC40D00DEE33D /* config.lua */; };
 		AA3296F615CEC40D00DEE33D /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D715CEC40D00DEE33D /* explo2.wav */; };
 		AA3296F715CEC40D00DEE33D /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D915CEC40D00DEE33D /* background-hd.png */; };
@@ -96,6 +100,10 @@
 		62C169B81731555B00551FAC /* main_menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_menu_button.png; sourceTree = "<group>"; };
 		62C169BE1731642600551FAC /* Level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Level1.plist; path = LevelDescriptions/Level1.plist; sourceTree = "<group>"; };
 		62C169C01731643900551FAC /* Level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Level2.plist; path = LevelDescriptions/Level2.plist; sourceTree = "<group>"; };
+		62C169C41731754100551FAC /* bearframes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bearframes.plist; sourceTree = "<group>"; };
+		62C169C51731754100551FAC /* bearframes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bearframes.png; sourceTree = "<group>"; };
+		62C169C8173175AE00551FAC /* bearframes-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "bearframes-hd.plist"; sourceTree = "<group>"; };
+		62C169C9173175AE00551FAC /* bearframes-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bearframes-hd.png"; sourceTree = "<group>"; };
 		AA3296D615CEC40D00DEE33D /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
 		AA3296D715CEC40D00DEE33D /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		AA3296D915CEC40D00DEE33D /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hd.png"; sourceTree = "<group>"; };
@@ -247,9 +255,29 @@
 			name = LevelDescriptions;
 			sourceTree = "<group>";
 		};
+		62C169C21731754000551FAC /* Spritesheets */ = {
+			isa = PBXGroup;
+			children = (
+				62C169C31731754100551FAC /* Bear */,
+			);
+			path = Spritesheets;
+			sourceTree = "<group>";
+		};
+		62C169C31731754100551FAC /* Bear */ = {
+			isa = PBXGroup;
+			children = (
+				62C169C8173175AE00551FAC /* bearframes-hd.plist */,
+				62C169C9173175AE00551FAC /* bearframes-hd.png */,
+				62C169C41731754100551FAC /* bearframes.plist */,
+				62C169C51731754100551FAC /* bearframes.png */,
+			);
+			path = Bear;
+			sourceTree = "<group>";
+		};
 		AA3296D515CEC40D00DEE33D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				62C169C21731754000551FAC /* Spritesheets */,
 				62C169BD173163CC00551FAC /* LevelDescriptions */,
 				AA3296D615CEC40D00DEE33D /* config.lua */,
 				AA3296D715CEC40D00DEE33D /* explo2.wav */,
@@ -526,6 +554,10 @@
 				62C169BC1731555B00551FAC /* main_menu_button.png in Resources */,
 				62C169BF1731642600551FAC /* Level1.plist in Resources */,
 				62C169C11731643900551FAC /* Level2.plist in Resources */,
+				62C169C61731754100551FAC /* bearframes.plist in Resources */,
+				62C169C71731754100551FAC /* bearframes.png in Resources */,
+				62C169CA173175AE00551FAC /* bearframes-hd.plist in Resources */,
+				62C169CB173175AE00551FAC /* bearframes-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
