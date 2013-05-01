@@ -247,7 +247,8 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 {
     if ([self gameOver]) {
         [self unscheduleUpdate];
-        [[CCDirector sharedDirector] replaceScene: [[GameOverLayer alloc] init]];
+        
+        [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:[[GameOverLayer alloc] init]]];
     }
     
     //Check for inputs and create a bullet if there is a tap

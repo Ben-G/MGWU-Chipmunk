@@ -24,7 +24,7 @@
 	if ((self = [super init])) {
         
         self.startButton = [[CCMenuItemFont alloc] initWithString:@"Start" block:^(id sender) {
-            [[CCDirector sharedDirector] replaceScene: [GameLayer scene]];
+            [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:[GameLayer scene]]];
         }];
         self.startButton.fontSize = 12;
         
