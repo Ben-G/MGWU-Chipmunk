@@ -14,6 +14,8 @@
 		62C169BA1731555B00551FAC /* main_menu_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B61731555B00551FAC /* main_menu_background.png */; };
 		62C169BB1731555B00551FAC /* main_menu_button-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B71731555B00551FAC /* main_menu_button-hd.png */; };
 		62C169BC1731555B00551FAC /* main_menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B81731555B00551FAC /* main_menu_button.png */; };
+		62C169BF1731642600551FAC /* Level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C169BE1731642600551FAC /* Level1.plist */; };
+		62C169C11731643900551FAC /* Level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C01731643900551FAC /* Level2.plist */; };
 		AA3296F515CEC40D00DEE33D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D615CEC40D00DEE33D /* config.lua */; };
 		AA3296F615CEC40D00DEE33D /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D715CEC40D00DEE33D /* explo2.wav */; };
 		AA3296F715CEC40D00DEE33D /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D915CEC40D00DEE33D /* background-hd.png */; };
@@ -92,6 +94,8 @@
 		62C169B61731555B00551FAC /* main_menu_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_menu_background.png; sourceTree = "<group>"; };
 		62C169B71731555B00551FAC /* main_menu_button-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_menu_button-hd.png"; sourceTree = "<group>"; };
 		62C169B81731555B00551FAC /* main_menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_menu_button.png; sourceTree = "<group>"; };
+		62C169BE1731642600551FAC /* Level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Level1.plist; path = LevelDescriptions/Level1.plist; sourceTree = "<group>"; };
+		62C169C01731643900551FAC /* Level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Level2.plist; path = LevelDescriptions/Level2.plist; sourceTree = "<group>"; };
 		AA3296D615CEC40D00DEE33D /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
 		AA3296D715CEC40D00DEE33D /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		AA3296D915CEC40D00DEE33D /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hd.png"; sourceTree = "<group>"; };
@@ -234,9 +238,19 @@
 			path = MainMenu;
 			sourceTree = "<group>";
 		};
+		62C169BD173163CC00551FAC /* LevelDescriptions */ = {
+			isa = PBXGroup;
+			children = (
+				62C169BE1731642600551FAC /* Level1.plist */,
+				62C169C01731643900551FAC /* Level2.plist */,
+			);
+			name = LevelDescriptions;
+			sourceTree = "<group>";
+		};
 		AA3296D515CEC40D00DEE33D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				62C169BD173163CC00551FAC /* LevelDescriptions */,
 				AA3296D615CEC40D00DEE33D /* config.lua */,
 				AA3296D715CEC40D00DEE33D /* explo2.wav */,
 				AA3296D815CEC40D00DEE33D /* Peeved Penguins Art */,
@@ -510,6 +524,8 @@
 				62C169BA1731555B00551FAC /* main_menu_background.png in Resources */,
 				62C169BB1731555B00551FAC /* main_menu_button-hd.png in Resources */,
 				62C169BC1731555B00551FAC /* main_menu_button.png in Resources */,
+				62C169BF1731642600551FAC /* Level1.plist in Resources */,
+				62C169C11731643900551FAC /* Level2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

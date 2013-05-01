@@ -38,7 +38,7 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 @synthesize didShoot;
 
 
--(id) init
+-(id)initWithLevelDescription:(NSDictionary*)levelDescription
 {
 	if ((self = [super init]))
 	{
@@ -89,6 +89,21 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         //Add all the sprites to the game, including blocks and the catapult. It's tedious...
         //See the storing game data tutorial to learn how to abstract all of this out to a plist file
         
+        
+        NSArray *blockDescriptions = [levelDescription objectForKey:@"blocks"];
+        
+        for (NSDictionary *block in blockDescriptions) {
+            NSString *fileName = [block objectForKey:@"spriteName"];
+            fileName = [fileName stringByAppendingString:@".png"];
+            float x = [[block objectForKey:@"x"] intValue];
+            float y = [[block objectForKey:@"y"] intValue];
+            
+            CCSprite *sprite = [CCSprite spriteWithFile:fileName];
+            sprite.anchorPoint = CGPointZero;
+            sprite.position = ccp(x,y);
+            [self addChild:sprite z:7];
+        }
+        
         CCSprite *sprite = [CCSprite spriteWithFile:@"background.png"];
         sprite.anchorPoint = CGPointZero;
         [self addChild:sprite z:-1];
@@ -107,21 +122,6 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         sprite.anchorPoint = CGPointZero;
         [self addChild:sprite z:10];
         
-        sprite = [CCSprite spriteWithFile:@"tallblock.png"];
-        sprite.position = CGPointMake(675.0f, FLOOR_HEIGHT + 28.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
-
-        sprite = [CCSprite spriteWithFile:@"longblock.png"];
-        sprite.position = CGPointMake(707.0f, FLOOR_HEIGHT + 56.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
-        sprite = [CCSprite spriteWithFile:@"tallblock.png"];
-        sprite.position = CGPointMake(741.0f, FLOOR_HEIGHT + 28.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
-        
-        
         sprite = [CCSprite spriteWithFile:@"seal.png"];
         sprite.position = CGPointMake(680.0f, FLOOR_HEIGHT + 72.0f);
         [blocks addObject:sprite];
@@ -130,22 +130,6 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         sprite.position = CGPointMake(740.0f, FLOOR_HEIGHT + 72.0f);
         [blocks addObject:sprite];
         [self addChild:sprite z:7];
-        
-        
-        
-        sprite = [CCSprite spriteWithFile:@"tallblock.png"];
-        sprite.position = CGPointMake(854.0f, FLOOR_HEIGHT + 28.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
-        sprite = [CCSprite spriteWithFile:@"tallblock.png"];
-        sprite.position = CGPointMake(854.0f, FLOOR_HEIGHT + 28.0f + 46.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
-        sprite = [CCSprite spriteWithFile:@"tallblock.png"];
-        sprite.position = CGPointMake(854.0f, FLOOR_HEIGHT + 26.0f + 46.0f + 46.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
-		
         
         CCSprite *arm = [CCSprite spriteWithFile:@"catapultarm.png"];
         arm.position = CGPointMake(230.0f, FLOOR_HEIGHT+130.0f);
@@ -161,12 +145,12 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 }
 
 
-+(id) scene
++(id) sceneWithLevelDescription:(NSDictionary*)levelDescription
 {
     CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	GameLayer *layer = [GameLayer node];
+	GameLayer *layer = [[GameLayer alloc] initWithLevelDescription:levelDescription];
 	
 	// add layer as a child to scene
 	[scene addChild: layer];

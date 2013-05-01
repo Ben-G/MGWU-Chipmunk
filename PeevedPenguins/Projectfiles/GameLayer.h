@@ -22,7 +22,10 @@ enum
     b2Body *screenBorderBody;
 
 }
-+(id) scene;
+
+-(id)initWithLevelDescription:(NSDictionary*)levelDescription;
+
++(id) sceneWithLevelDescription:(NSDictionary*)levelDescription;
 - (void)createBullets;
 
 @end

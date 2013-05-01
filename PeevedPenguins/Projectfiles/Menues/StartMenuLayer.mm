@@ -12,7 +12,8 @@
 
 @interface StartMenuLayer()
 
-@property (nonatomic, strong) CCMenuItemFont *startButton;
+@property (nonatomic, strong) CCMenuItemImage *startButton;
+@property (nonatomic, strong) CCMenuItemFont *level2Button;
 
 @end
 
@@ -30,13 +31,32 @@
         sprite.position = center;
         [self addChild:sprite z:-1];
         
+        NSString *pathLevel1 = [[NSBundle mainBundle] pathForResource:@"Level1" ofType:@"plist"];
+        NSDictionary *level1 = [NSDictionary dictionaryWithContentsOfFile:pathLevel1];
+        
+        NSString *pathLevel2 = [[NSBundle mainBundle] pathForResource:@"Level2" ofType:@"plist"];
+        NSDictionary *level2 = [NSDictionary dictionaryWithContentsOfFile:pathLevel2];
+        
+        
         self.startButton = [CCMenuItemImage itemWithNormalImage:@"main_menu_button.png"
                                                   selectedImage: nil
                                                           block:^(id sender) {
-                                                              [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:[GameLayer scene]]];
+                                                              CCScene *level1Scene = [GameLayer sceneWithLevelDescription:level1];
+                                                              
+                                                              [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:level1Scene]];
                                                           }];
         
-        CCMenu* menu = [CCMenu menuWithItems:self.startButton, nil];
+        self.level2Button = [CCMenuItemFont itemWithString:@"Level 2" block:^(id sender) {
+            CCScene *level2Scene = [GameLayer sceneWithLevelDescription:level2];
+            
+            [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:level2Scene]];
+        }];
+        
+        self.level2Button.color = ccc3(0.5,0.5,0.5);
+        self.level2Button.isEnabled = FALSE;
+        
+        CCMenu* menu = [CCMenu menuWithItems:self.startButton, self.level2Button, nil];
+        [menu alignItemsVertically];
         menu.position = ccp(winSize.width/2, 100);
         
         [self addChild:menu];
