@@ -163,6 +163,7 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 - (BOOL)gameOver {
     // game is over
     if (self.didShoot && ([bullets count] == 0)) {
+        [[NSUserDefaults standardUserDefaults] setObject:@10 forKey:@"highScore"];
         return TRUE;
     } else {
         return FALSE;

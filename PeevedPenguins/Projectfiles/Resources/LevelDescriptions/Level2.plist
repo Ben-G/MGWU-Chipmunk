@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>blocks</key>
+	<array>
+		<dict>
+			<key>x</key>
+			<integer>100</integer>
+			<key>y</key>
+			<integer>370</integer>
+			<key>spriteName</key>
+			<string>tallblock</string>
+		</dict>
+		<dict>
+			<key>x</key>
+			<integer>320</integer>
+			<key>y</key>
+			<integer>124</integer>
+			<key>spriteName</key>
+			<string>tallblock</string>
+		</dict>
+		<dict>
+			<key>x</key>
+			<integer>340</integer>
+			<key>y</key>
+			<integer>78</integer>
+			<key>spriteName</key>
+			<string>tallblock</string>
+		</dict>
+		<dict>
+			<key>x</key>
+			<integer>741</integer>
+			<key>y</key>
+			<integer>78</integer>
+			<key>spriteName</key>
+			<string>tallblock</string>
+		</dict>
+		<dict>
+			<key>x</key>
+			<integer>707</integer>
+			<key>y</key>
+			<integer>106</integer>
+			<key>spriteName</key>
+			<string>longblock</string>
+		</dict>
+		<dict>
+			<key>x</key>
+			<integer>675</integer>
+			<key>y</key>
+			<integer>78</integer>
+			<key>spriteName</key>
+			<string>tallblock</string>
+		</dict>
+	</array>
+</dict>
 </plist>

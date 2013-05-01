@@ -53,7 +53,13 @@
         }];
         
         self.level2Button.color = ccc3(0.5,0.5,0.5);
-        self.level2Button.isEnabled = FALSE;
+        
+        NSNumber *userHighScore = [[NSUserDefaults standardUserDefaults] objectForKey:@"highScore"];
+        if ([userHighScore intValue] >= 10) {
+            self.level2Button.isEnabled = TRUE;
+        } else {
+            self.level2Button.isEnabled = FALSE;
+        }
         
         CCMenu* menu = [CCMenu menuWithItems:self.startButton, self.level2Button, nil];
         [menu alignItemsVertically];
