@@ -22,15 +22,23 @@
 -(id) init {
     
 	if ((self = [super init])) {
+        CGSize winSize = [[CCDirector sharedDirector] winSize];
+        CGPoint center = ccp(winSize.width/2, winSize.height/2);
+
         
-        self.startButton = [[CCMenuItemFont alloc] initWithString:@"Start" block:^(id sender) {
-            [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:[GameLayer scene]]];
-        }];
-        self.startButton.fontSize = 12;
+        CCSprite *sprite = [CCSprite spriteWithFile:@"main_menu_background.png"];
+        sprite.position = center;
+        [self addChild:sprite z:-1];
+        
+        self.startButton = [CCMenuItemImage itemWithNormalImage:@"main_menu_button.png"
+                                                  selectedImage: nil
+                                                          block:^(id sender) {
+                                                              [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:[GameLayer scene]]];
+                                                          }];
         
         CCMenu* menu = [CCMenu menuWithItems:self.startButton, nil];
-        menu.position = ccp(100, 100);
-        [menu alignItemsVertically];
+        menu.position = ccp(winSize.width/2, 100);
+        
         [self addChild:menu];
         
         [self scheduleUpdate];

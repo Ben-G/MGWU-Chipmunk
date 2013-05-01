@@ -10,6 +10,10 @@
 		62C169AB172D7EB200551FAC /* StartMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62C169A9172D7EB200551FAC /* StartMenuLayer.mm */; };
 		62C169AD172D802600551FAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169AC172D802600551FAC /* Default-568h@2x.png */; };
 		62C169B3173143E900551FAC /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62C169B1173143E900551FAC /* GameOverLayer.mm */; };
+		62C169B91731555B00551FAC /* main_menu_background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B51731555B00551FAC /* main_menu_background-hd.png */; };
+		62C169BA1731555B00551FAC /* main_menu_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B61731555B00551FAC /* main_menu_background.png */; };
+		62C169BB1731555B00551FAC /* main_menu_button-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B71731555B00551FAC /* main_menu_button-hd.png */; };
+		62C169BC1731555B00551FAC /* main_menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169B81731555B00551FAC /* main_menu_button.png */; };
 		AA3296F515CEC40D00DEE33D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D615CEC40D00DEE33D /* config.lua */; };
 		AA3296F615CEC40D00DEE33D /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D715CEC40D00DEE33D /* explo2.wav */; };
 		AA3296F715CEC40D00DEE33D /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D915CEC40D00DEE33D /* background-hd.png */; };
@@ -84,6 +88,10 @@
 		62C169AC172D802600551FAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		62C169B1173143E900551FAC /* GameOverLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameOverLayer.mm; path = Menues/GameOverLayer.mm; sourceTree = "<group>"; };
 		62C169B2173143E900551FAC /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = Menues/GameOverLayer.h; sourceTree = "<group>"; };
+		62C169B51731555B00551FAC /* main_menu_background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_menu_background-hd.png"; sourceTree = "<group>"; };
+		62C169B61731555B00551FAC /* main_menu_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_menu_background.png; sourceTree = "<group>"; };
+		62C169B71731555B00551FAC /* main_menu_button-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_menu_button-hd.png"; sourceTree = "<group>"; };
+		62C169B81731555B00551FAC /* main_menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_menu_button.png; sourceTree = "<group>"; };
 		AA3296D615CEC40D00DEE33D /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
 		AA3296D715CEC40D00DEE33D /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		AA3296D915CEC40D00DEE33D /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hd.png"; sourceTree = "<group>"; };
@@ -215,6 +223,17 @@
 			name = Menues;
 			sourceTree = "<group>";
 		};
+		62C169B41731555B00551FAC /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				62C169B51731555B00551FAC /* main_menu_background-hd.png */,
+				62C169B61731555B00551FAC /* main_menu_background.png */,
+				62C169B71731555B00551FAC /* main_menu_button-hd.png */,
+				62C169B81731555B00551FAC /* main_menu_button.png */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
 		AA3296D515CEC40D00DEE33D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +247,7 @@
 		AA3296D815CEC40D00DEE33D /* Peeved Penguins Art */ = {
 			isa = PBXGroup;
 			children = (
+				62C169B41731555B00551FAC /* MainMenu */,
 				AA3296D915CEC40D00DEE33D /* background-hd.png */,
 				AA3296DA15CEC40D00DEE33D /* background.png */,
 				AA3296DB15CEC40D00DEE33D /* bear-hd.png */,
@@ -486,6 +506,10 @@
 				AA32971115CEC40D00DEE33D /* waitingpenguin-hd.png in Resources */,
 				AA32971215CEC40D00DEE33D /* waitingpenguin.png in Resources */,
 				62C169AD172D802600551FAC /* Default-568h@2x.png in Resources */,
+				62C169B91731555B00551FAC /* main_menu_background-hd.png in Resources */,
+				62C169BA1731555B00551FAC /* main_menu_background.png in Resources */,
+				62C169BB1731555B00551FAC /* main_menu_button-hd.png in Resources */,
+				62C169BC1731555B00551FAC /* main_menu_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
