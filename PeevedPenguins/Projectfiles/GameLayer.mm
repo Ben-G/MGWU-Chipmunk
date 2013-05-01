@@ -33,7 +33,6 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 @property (nonatomic, assign) BOOL didShoot;
 @property (nonatomic, strong) CCAction *taunt;
 @property (nonatomic, strong) NSMutableArray *tauntingFrames;
-@property (nonatomic, strong) NSMutableArray *aliveSeals;
 
 @end
 
@@ -44,7 +43,6 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 	delete world;
     self.taunt = nil;
     self.tauntingFrames = nil;
-    self.aliveSeals = nil;
     
 #ifndef KK_ARC_ENABLED
 	[super dealloc];
@@ -174,21 +172,17 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         sprite.anchorPoint = CGPointZero;
         [self addChild:sprite z:10];
         
-        
-        self.aliveSeals = [[NSMutableArray alloc] init];
-        
+                
         Seal *seal = [[Seal alloc] initWithSealImage];
         seal.position = CGPointMake(680.0f, FLOOR_HEIGHT + 72.0f);
         [blocks addObject:seal];
         [self addChild:seal z:7];
-        [self.aliveSeals addObject:seal];
         
         
         Seal *seal2 = [[Seal alloc] initWithSealImage];
         seal.position = CGPointMake(740.0f, FLOOR_HEIGHT + 72.0f);
         [blocks addObject:seal2];
         [self addChild:seal2 z:7];
-        [self.aliveSeals addObject:seal2];
         
         
         CCSprite *arm = [CCSprite spriteWithFile:@"catapultarm.png"];
@@ -222,12 +216,14 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 //indicates whether or not the game is over
 - (BOOL)gameOver {
     // game is over
-    if (self.didShoot && ([bullets count] == 0)) {
+    /*if (self.didShoot && ([bullets count] == 0)) {
         [[NSUserDefaults standardUserDefaults] setObject:@10 forKey:@"highScore"];
         return TRUE;
     } else {
         return FALSE;
-    }
+    }*/
+    
+    return FALSE;
 }
 
 //Create the bullets, add them to the list of bullets so they can be referred to later
@@ -261,11 +257,29 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
                     //check if their y coordinates are within the height of the block
                     if(projectile.position.y < (block.position.y + 23.0f) && projectile.position.y > block.position.y - 23.0f)
                     {
-                        [self removeChild:block cleanup:YES];
-                        [self removeChild:projectile cleanup:YES];
-                        [blocks removeObjectAtIndex:second];
-                        [bullets removeObjectAtIndex:first];
-                        [[SimpleAudioEngine sharedEngine] playEffect:@"explo2.wav"];
+                       
+                        
+                        if([block isKindOfClass:[Seal class]]) {
+                            if (((Seal*)block).health==1)
+                            {
+                                [self removeChild:block cleanup:YES];
+                                [self removeChild:projectile cleanup:YES];
+                                [blocks removeObjectAtIndex:second];
+                                [bullets removeObjectAtIndex:first];
+                            }
+                            else
+                            {
+                                ((Seal*)block).health--;
+                                [self removeChild:projectile cleanup:YES];
+                                [bullets removeObjectAtIndex:first];
+                            }
+                        } else {
+                            [self removeChild:block cleanup:YES];
+                            [self removeChild:projectile cleanup:YES];
+                            [blocks removeObjectAtIndex:second];
+                            [bullets removeObjectAtIndex:first];
+                            [[SimpleAudioEngine sharedEngine] playEffect:@"explo2.wav"];
+                        }
                     }
                 }
             }
