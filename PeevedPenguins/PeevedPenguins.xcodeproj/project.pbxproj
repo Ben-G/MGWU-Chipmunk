@@ -20,6 +20,7 @@
 		62C169C71731754100551FAC /* bearframes.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C51731754100551FAC /* bearframes.png */; };
 		62C169CA173175AE00551FAC /* bearframes-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C8173175AE00551FAC /* bearframes-hd.plist */; };
 		62C169CB173175AE00551FAC /* bearframes-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169C9173175AE00551FAC /* bearframes-hd.png */; };
+		62C169CF1731A64600551FAC /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C169CE1731A64600551FAC /* Seal.m */; };
 		AA3296F515CEC40D00DEE33D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D615CEC40D00DEE33D /* config.lua */; };
 		AA3296F615CEC40D00DEE33D /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D715CEC40D00DEE33D /* explo2.wav */; };
 		AA3296F715CEC40D00DEE33D /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D915CEC40D00DEE33D /* background-hd.png */; };
@@ -104,6 +105,8 @@
 		62C169C51731754100551FAC /* bearframes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bearframes.png; sourceTree = "<group>"; };
 		62C169C8173175AE00551FAC /* bearframes-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "bearframes-hd.plist"; sourceTree = "<group>"; };
 		62C169C9173175AE00551FAC /* bearframes-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bearframes-hd.png"; sourceTree = "<group>"; };
+		62C169CD1731A64600551FAC /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Entities/Seal.h; sourceTree = "<group>"; };
+		62C169CE1731A64600551FAC /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Entities/Seal.m; sourceTree = "<group>"; };
 		AA3296D615CEC40D00DEE33D /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
 		AA3296D715CEC40D00DEE33D /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		AA3296D915CEC40D00DEE33D /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hd.png"; sourceTree = "<group>"; };
@@ -274,6 +277,15 @@
 			path = Bear;
 			sourceTree = "<group>";
 		};
+		62C169CC1731A60300551FAC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				62C169CD1731A64600551FAC /* Seal.h */,
+				62C169CE1731A64600551FAC /* Seal.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 		AA3296D515CEC40D00DEE33D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +419,7 @@
 		DCC1A38C13A94F1A005BD75D /* Projectfiles */ = {
 			isa = PBXGroup;
 			children = (
+				62C169CC1731A60300551FAC /* Entities */,
 				62C169A8172D7D7300551FAC /* Menues */,
 				AA47749C15CED021009A911F /* AppDelegate.h */,
 				AA47749D15CED021009A911F /* AppDelegate.m */,
@@ -587,6 +600,7 @@
 				AA4774AE15CED021009A911F /* main.m in Sources */,
 				62C169AB172D7EB200551FAC /* StartMenuLayer.mm in Sources */,
 				62C169B3173143E900551FAC /* GameOverLayer.mm in Sources */,
+				62C169CF1731A64600551FAC /* Seal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 #import "GameLayer.h"
 #import "SimpleAudioEngine.h"
 #import "GameOverLayer.h"
+#import "Seal.h"
 
 const float PTM_RATIO = 32.0f;
 #define FLOOR_HEIGHT    50.0f
@@ -32,6 +33,7 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 @property (nonatomic, assign) BOOL didShoot;
 @property (nonatomic, strong) CCAction *taunt;
 @property (nonatomic, strong) NSMutableArray *tauntingFrames;
+@property (nonatomic, strong) NSMutableArray *aliveSeals;
 
 @end
 
@@ -42,6 +44,7 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 	delete world;
     self.taunt = nil;
     self.tauntingFrames = nil;
+    self.aliveSeals = nil;
     
 #ifndef KK_ARC_ENABLED
 	[super dealloc];
@@ -171,14 +174,22 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         sprite.anchorPoint = CGPointZero;
         [self addChild:sprite z:10];
         
-        sprite = [CCSprite spriteWithFile:@"seal.png"];
-        sprite.position = CGPointMake(680.0f, FLOOR_HEIGHT + 72.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
-        sprite = [CCSprite spriteWithFile:@"seal.png"];
-        sprite.position = CGPointMake(740.0f, FLOOR_HEIGHT + 72.0f);
-        [blocks addObject:sprite];
-        [self addChild:sprite z:7];
+        
+        self.aliveSeals = [[NSMutableArray alloc] init];
+        
+        Seal *seal = [[Seal alloc] initWithSealImage];
+        seal.position = CGPointMake(680.0f, FLOOR_HEIGHT + 72.0f);
+        [blocks addObject:seal];
+        [self addChild:seal z:7];
+        [self.aliveSeals addObject:seal];
+        
+        
+        Seal *seal2 = [[Seal alloc] initWithSealImage];
+        seal.position = CGPointMake(740.0f, FLOOR_HEIGHT + 72.0f);
+        [blocks addObject:seal2];
+        [self addChild:seal2 z:7];
+        [self.aliveSeals addObject:seal2];
+        
         
         CCSprite *arm = [CCSprite spriteWithFile:@"catapultarm.png"];
         arm.position = CGPointMake(230.0f, FLOOR_HEIGHT+130.0f);
