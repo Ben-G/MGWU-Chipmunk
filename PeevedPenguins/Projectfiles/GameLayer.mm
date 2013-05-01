@@ -30,12 +30,23 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 - (BOOL)gameOver;
 
 @property (nonatomic, assign) BOOL didShoot;
+@property (nonatomic, strong) CCAction *taunt;
+@property (nonatomic, strong) NSMutableArray *tauntingFrames;
 
 @end
 
 @implementation GameLayer
 
-@synthesize didShoot;
+-(void) dealloc
+{
+	delete world;
+    self.taunt = nil;
+    self.tauntingFrames = nil;
+    
+#ifndef KK_ARC_ENABLED
+	[super dealloc];
+#endif
+}
 
 
 -(id)initWithLevelDescription:(NSDictionary*)levelDescription
@@ -113,9 +124,47 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         sprite.position = CGPointMake(135.0f, FLOOR_HEIGHT);
         [self addChild:sprite z:0];
         
-        sprite = [CCSprite spriteWithFile:@"bear.png"];
+        
+        //Load the plist which tells Kobold2D how to properly parse your spritesheet. If on a retina device Kobold2D will automatically use bearframes-hd.plist
+        
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile: @"bearframes.plist"];
+        
+        //Load in the spritesheet, if retina Kobold2D will automatically use bearframes-hd.png
+        
+        // *****+ BATCH NODE CURRENTLY NOT IN USE ********
+        //CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"bearframes.png"];
+        //[self addChild:spriteSheet];
+        
+        //Define the frames based on the plist - note that for this to work, the original files must be in the format bear1, bear2, bear3 etc...
+        
+        //When it comes time to get art for your own original game, makegameswith.us will give you spritesheets that follow this convention, <spritename>1 <spritename>2 <spritename>3 etc...
+        
+        self.tauntingFrames = [NSMutableArray array];
+        
+        for(int i = 1; i <= 7; ++i)
+        {
+            [self.tauntingFrames addObject:
+             [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName: [NSString stringWithFormat:@"bear%d.png", i]]];
+        }
+        
+        //Initialize the bear with the first frame you loaded from your spritesheet, bear1
+        
+        sprite = [CCSprite spriteWithSpriteFrameName:@"bear1.png"];
+        
         sprite.anchorPoint = CGPointZero;
         sprite.position = CGPointMake(50.0f, FLOOR_HEIGHT);
+        
+        //Create an animation from the set of frames you created earlier
+        
+        CCAnimation *taunting = [CCAnimation animationWithSpriteFrames: self.tauntingFrames delay:0.5f];
+        
+        //Create an action with the animation that can then be assigned to a sprite
+        
+        self.taunt = [CCRepeatForever actionWithAction: [CCAnimate actionWithAnimation:taunting restoreOriginalFrame:NO]];
+        
+        //tell the bear to run the taunting action
+        [sprite runAction:self.taunt];
+        
         [self addChild:sprite z:0];
             
         sprite = [CCSprite spriteWithFile:@"ground.png"];
@@ -214,18 +263,6 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         
     }
 }
-
-
-
--(void) dealloc
-{
-	delete world;
-    
-#ifndef KK_ARC_ENABLED
-	[super dealloc];
-#endif
-}
-
 
 
 -(void) update:(ccTime)delta
