@@ -1,30 +1,30 @@
 //
-//  StartMenueLayer.mm
+//  GameOverLayer.mm
 //  PeevedPenguins
 //
-//  Created by Benjamin Encz on 4/28/13.
+//  Created by Benjamin Encz on 5/1/13.
 //
 //
 
+#import "GameOverLayer.h"
 #import "kobold2d.h"
 #import "StartMenuLayer.h"
-#import "GameLayer.h"
 
-@interface StartMenuLayer()
+@interface GameOverLayer()
 
 @property (nonatomic, strong) CCMenuItemFont *startButton;
 
 @end
 
-@implementation StartMenuLayer
- 
+@implementation GameOverLayer
+
 
 -(id) init {
     
 	if ((self = [super init])) {
         
-        self.startButton = [[CCMenuItemFont alloc] initWithString:@"Start" block:^(id sender) {
-            [[CCDirector sharedDirector] replaceScene: [GameLayer scene]];
+        self.startButton = [[CCMenuItemFont alloc] initWithString:@"Back to Main Menu!" block:^(id sender) {
+            [[CCDirector sharedDirector] replaceScene: [[StartMenuLayer alloc] init]];
         }];
         self.startButton.fontSize = 12;
         
@@ -35,7 +35,7 @@
         
         [self scheduleUpdate];
     }
-
+    
     return self;
 }
 

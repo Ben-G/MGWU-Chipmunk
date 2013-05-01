@@ -7,9 +7,11 @@
 
 #import "GameLayer.h"
 #import "SimpleAudioEngine.h"
+#import "GameOverLayer.h"
 
 const float PTM_RATIO = 32.0f;
 #define FLOOR_HEIGHT    50.0f
+#define SPEED_FACTOR     1.0f
 
 CCSprite *projectile;
 CCSprite *block;
@@ -19,15 +21,21 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 
 
 
-@interface GameLayer (PrivateMethods)
+@interface GameLayer ()
 -(void) enableBox2dDebugDrawing;
 -(void) addSomeJoinedBodies:(CGPoint)pos;
 -(void) addNewSpriteAt:(CGPoint)p;
 -(b2Vec2) toMeters:(CGPoint)point;
 -(CGPoint) toPixels:(b2Vec2)vec;
+- (BOOL)gameOver;
+
+@property (nonatomic, assign) BOOL didShoot;
+
 @end
 
 @implementation GameLayer
+
+@synthesize didShoot;
 
 
 -(id) init
@@ -37,6 +45,7 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 		CCLOG(@"%@ init", NSStringFromClass([self class]));
         
         bullets = [[NSMutableArray alloc] init];
+        self.didShoot = FALSE;
         
         // Construct a world object, which will hold and simulate the rigid bodies.
 		b2Vec2 gravity = b2Vec2(0.0f, -10.0f);
@@ -166,6 +175,15 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 	return scene;
 }
 
+//indicates whether or not the game is over
+- (BOOL)gameOver {
+    // game is over
+    if (self.didShoot && ([bullets count] == 0)) {
+        return TRUE;
+    } else {
+        return FALSE;
+    }
+}
 
 //Create the bullets, add them to the list of bullets so they can be referred to later
 - (void)createBullets
@@ -227,10 +245,16 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 
 -(void) update:(ccTime)delta
 {
+    if ([self gameOver]) {
+        [self unscheduleUpdate];
+        [[CCDirector sharedDirector] replaceScene: [[GameOverLayer alloc] init]];
+    }
+    
     //Check for inputs and create a bullet if there is a tap
     KKInput* input = [KKInput sharedInput];
     if(input.anyTouchEndedThisFrame)
     {
+        self.didShoot = TRUE;
         [self createBullets];
     }
     //Move the projectiles to the right and down
@@ -238,7 +262,7 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
     {
         NSInteger j = i;
         projectile = [bullets objectAtIndex:j];
-        projectile.position = ccp(projectile.position.x + 1.0f,projectile.position.y - 0.25f);
+        projectile.position = ccp(projectile.position.x + (1.0f*SPEED_FACTOR),projectile.position.y - (0.25f*SPEED_FACTOR));
     }
     //Move the screen if the bullets move too far right
     if([bullets count] > 0)

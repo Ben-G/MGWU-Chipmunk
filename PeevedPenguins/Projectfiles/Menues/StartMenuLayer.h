@@ -7,6 +7,6 @@
 //
 
 
-@interface StartMenuLayer : CCLayer
+@interface StartMenuLayer : CCScene
 
 @end

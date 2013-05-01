@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		62C169AB172D7EB200551FAC /* StartMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62C169A9172D7EB200551FAC /* StartMenuLayer.mm */; };
 		62C169AD172D802600551FAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C169AC172D802600551FAC /* Default-568h@2x.png */; };
+		62C169B3173143E900551FAC /* GameOverLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62C169B1173143E900551FAC /* GameOverLayer.mm */; };
 		AA3296F515CEC40D00DEE33D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D615CEC40D00DEE33D /* config.lua */; };
 		AA3296F615CEC40D00DEE33D /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D715CEC40D00DEE33D /* explo2.wav */; };
 		AA3296F715CEC40D00DEE33D /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3296D915CEC40D00DEE33D /* background-hd.png */; };
@@ -81,6 +82,8 @@
 		62C169A9172D7EB200551FAC /* StartMenuLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StartMenuLayer.mm; path = Menues/StartMenuLayer.mm; sourceTree = "<group>"; };
 		62C169AA172D7EB200551FAC /* StartMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartMenuLayer.h; path = Menues/StartMenuLayer.h; sourceTree = "<group>"; };
 		62C169AC172D802600551FAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		62C169B1173143E900551FAC /* GameOverLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameOverLayer.mm; path = Menues/GameOverLayer.mm; sourceTree = "<group>"; };
+		62C169B2173143E900551FAC /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = Menues/GameOverLayer.h; sourceTree = "<group>"; };
 		AA3296D615CEC40D00DEE33D /* config.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.lua; sourceTree = "<group>"; };
 		AA3296D715CEC40D00DEE33D /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
 		AA3296D915CEC40D00DEE33D /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-hd.png"; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 			children = (
 				62C169A9172D7EB200551FAC /* StartMenuLayer.mm */,
 				62C169AA172D7EB200551FAC /* StartMenuLayer.h */,
+				62C169B1173143E900551FAC /* GameOverLayer.mm */,
+				62C169B2173143E900551FAC /* GameOverLayer.h */,
 			);
 			name = Menues;
 			sourceTree = "<group>";
@@ -509,6 +514,7 @@
 				AA4774AD15CED021009A911F /* GLES-Render.mm in Sources */,
 				AA4774AE15CED021009A911F /* main.m in Sources */,
 				62C169AB172D7EB200551FAC /* StartMenuLayer.mm in Sources */,
+				62C169B3173143E900551FAC /* GameOverLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
