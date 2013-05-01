@@ -13,6 +13,7 @@
 const float PTM_RATIO = 32.0f;
 #define FLOOR_HEIGHT    50.0f
 #define SPEED_FACTOR     1.0f
+#define MAX_MUNITION        2
 
 CCSprite *projectile;
 CCSprite *block;
@@ -30,9 +31,9 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 -(CGPoint) toPixels:(b2Vec2)vec;
 - (BOOL)gameOver;
 
-@property (nonatomic, assign) BOOL didShoot;
 @property (nonatomic, strong) CCAction *taunt;
 @property (nonatomic, strong) NSMutableArray *tauntingFrames;
+@property (nonatomic, assign) int usedMunition;
 
 @end
 
@@ -57,7 +58,7 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 		CCLOG(@"%@ init", NSStringFromClass([self class]));
         
         bullets = [[NSMutableArray alloc] init];
-        self.didShoot = FALSE;
+        self.usedMunition = 0;
         
         // Construct a world object, which will hold and simulate the rigid bodies.
 		b2Vec2 gravity = b2Vec2(0.0f, -10.0f);
@@ -216,12 +217,12 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 //indicates whether or not the game is over
 - (BOOL)gameOver {
     // game is over
-    /*if (self.didShoot && ([bullets count] == 0)) {
+    if ( (self.usedMunition == MAX_MUNITION) && ([bullets count] == 0)) {
         [[NSUserDefaults standardUserDefaults] setObject:@10 forKey:@"highScore"];
         return TRUE;
     } else {
         return FALSE;
-    }*/
+    }
     
     return FALSE;
 }
@@ -298,12 +299,12 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         [[CCDirector sharedDirector] replaceScene: [CCTransitionFlipAngular transitionWithDuration:0.5f scene:[[GameOverLayer alloc] init]]];
     }
     
-    //Check for inputs and create a bullet if there is a tap
+    //Check for inputs and create a bullet if there is a tap and munition is not used up yet
     KKInput* input = [KKInput sharedInput];
-    if(input.anyTouchEndedThisFrame)
+    if(input.anyTouchEndedThisFrame && (self.usedMunition < MAX_MUNITION))
     {
-        self.didShoot = TRUE;
         [self createBullets];
+        self.usedMunition++;
     }
     //Move the projectiles to the right and down
     for(int i = 0; i < [bullets count]; i++)
