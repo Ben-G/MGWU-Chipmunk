@@ -22,6 +22,13 @@ enum
     b2Body *screenBorderBody;
     b2Fixture *armFixture; //will store the shape and density information of the catapult arm
     b2Body *armBody;  //will store the position and type of the catapult arm
+    b2RevoluteJoint *armJoint;
+    b2MouseJoint *mouseJoint;
+    b2Body *bulletBody;
+    b2WeldJoint *bulletJoint;
+    BOOL releasingArm;
+    NSMutableSet *targets;
+    NSMutableSet *enemies;
 }
 
 -(id)initWithLevelDescription:(NSDictionary*)levelDescription;
