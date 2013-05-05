@@ -588,6 +588,33 @@ NSDictionary *currentlevelDescription;
             
         }
     }
+    
+    
+    for (b2Body* body = world->GetBodyList(); body != nil; body = body->GetNext())
+    {
+        //get the sprite associated with the body
+        CCSprite* sprite = (__bridge CCSprite*)body->GetUserData();
+        if (sprite != NULL && sprite.tag==2)
+        {
+            if ([sprite isKindOfClass:[Seal class]])
+            {
+                if( ((Seal*)sprite).health==1 )
+                {
+                    [self removeChild:sprite cleanup:NO];
+                    world->DestroyBody(body);
+                }
+                else
+                {
+                    ((Seal*)sprite).health--;
+                }
+            }
+            else
+            {
+                [self removeChild:sprite cleanup:NO];
+                world->DestroyBody(body);
+            }
+        }
+    }
 }
 
 // convenience method to convert a b2Vec2 to a CGPoint
