@@ -74,11 +74,17 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         
         CGSize screenSize = [CCDirector sharedDirector].winSize;
 
+        //Raise to floor height
+        b2Vec2 lowerLeftCorner = b2Vec2(0,FLOOR_HEIGHT/PTM_RATIO);
         
-        b2Vec2 lowerLeftCorner =b2Vec2(0,0);
-		b2Vec2 lowerRightCorner = b2Vec2(screenSize.width/PTM_RATIO,0);
+        //Raise to floor height, extend to end of game area
+		b2Vec2 lowerRightCorner = b2Vec2(screenSize.width*2.0f/PTM_RATIO,FLOOR_HEIGHT/PTM_RATIO);
+        
+        
 		b2Vec2 upperLeftCorner = b2Vec2(0,screenSize.height/PTM_RATIO);
-		b2Vec2 upperRightCorner = b2Vec2(screenSize.width/PTM_RATIO,screenSize.height/PTM_RATIO);
+        
+		//Extend to end of game area.
+        b2Vec2 upperRightCorner =b2Vec2(screenSize.width*2.0f/PTM_RATIO,screenSize.height/PTM_RATIO);
 		
 		// Define the static container body, which will provide the collisions at screen borders.
 		b2BodyDef screenBorderDef;
@@ -187,8 +193,32 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
         
         
         CCSprite *arm = [CCSprite spriteWithFile:@"catapultarm.png"];
-        arm.position = CGPointMake(230.0f, FLOOR_HEIGHT+130.0f);
+
         [self addChild:arm z:-1];
+        
+        // Setting the properties of our definition
+        b2BodyDef armBodyDef;
+        armBodyDef.type = b2_dynamicBody;
+        //other types of bodies include static (immovable) bodies and kinematic bodies
+        armBodyDef.linearDamping = 1;
+        //linear damping affects how much the velocity of an object slows over time - this is in addition to friction
+        armBodyDef.angularDamping = 1;
+        //causes rotations to slow down. A value of 0 means there is no slowdown
+        armBodyDef.position.Set(240.0f/PTM_RATIO,(FLOOR_HEIGHT+141.0f)/PTM_RATIO);
+        armBodyDef.userData = (__bridge void*)arm; //this tells the Box2D body which sprite to update. This similar to the 'tag' property on buttons
+        
+        //create a body with the definition we just created
+        armBody = world->CreateBody(&armBodyDef);
+        //the -> is C++ syntax; it is like calling an object's methods (the CreateBody "method")
+        
+        //Create a fixture for the arm
+        b2PolygonShape armBox;
+        b2FixtureDef armBoxDef;
+        armBoxDef.shape = &armBox; //geometric shape
+        armBoxDef.density = 0.3F; //affects collision momentum and inertia
+        armBox.SetAsBox(15.0f/PTM_RATIO, 140.0f/PTM_RATIO);
+        //this is based on the dimensions of the arm which you can get from your image editing software of choice
+        armFixture = armBody->CreateFixture(&armBoxDef);
 		
         [[SimpleAudioEngine sharedEngine] preloadEffect:@"explo2.wav"];
         
@@ -326,6 +356,20 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
     if([bullets count] > 0 && [blocks count] > 0)
     {
         [self detectCollisions];
+    }
+    
+    //get all the bodies in the world
+    for (b2Body* body = world->GetBodyList(); body != nil; body = body->GetNext())
+    {
+        //get the sprite associated with the body
+        CCSprite* sprite = (__bridge CCSprite*)body->GetUserData();
+        if (sprite != NULL)
+        {
+            // update the sprite's position to where their physics bodies are
+            sprite.position = [self toPixels:body->GetPosition()];
+            float angle = body->GetAngle();
+            sprite.rotation = CC_RADIANS_TO_DEGREES(angle) * -1;
+        }
     }
 }
 
