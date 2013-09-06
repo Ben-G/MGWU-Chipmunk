@@ -6,6 +6,7 @@
  */
 
 #import "AppDelegate.h"
+#import "chipmunk.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,9 @@
 #else
 	CCLOG(@"ARC is either not available or not enabled");
 #endif
+    
+    // initialize the chipmunk engine, only call this once
+    cpInitChipmunk();
 }
 
 -(id) alternateRootViewController
