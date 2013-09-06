@@ -9,6 +9,7 @@
 #import "SimpleAudioEngine.h"
 #import "GameOverLayer.h"
 #import "Seal.h"
+#import "chipmunk.h"
 
 const float PTM_RATIO = 32.0f;
 #define FLOOR_HEIGHT    50.0f
@@ -20,6 +21,7 @@ CCSprite *block;
 CGRect firstrect;
 CGRect secondrect;
 NSMutableArray *blocks = [[NSMutableArray alloc] init];
+cpSpace *space;
 
 
 
@@ -56,6 +58,9 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 	if ((self = [super init]))
 	{
 		CCLOG(@"%@ init", NSStringFromClass([self class]));
+        
+        // setup chipmunk space
+        [self createChipmunkSpace];
         
         bullets = [[NSMutableArray alloc] init];
         self.usedMunition = 0;
@@ -212,6 +217,48 @@ NSMutableArray *blocks = [[NSMutableArray alloc] init];
 	
 	// return the scene
 	return scene;
+}
+
+- (void)createChipmunkSpace {
+    // create chipmunkt space and store reference
+    space = cpSpaceNew();
+    // setup gravity
+    space->gravity = ccp(0, -750);
+    // following lines unavailable in Chipmunk 6 
+    /*cpSpaceResizeStaticHash(space, 400, 200);
+    cpSpaceResizeActiveHash(space, 200, 200);*/
+}
+
+- (void)createGround {
+    /*
+     We’re going to make the ground as a line from the lower left of the screen to the lower right of the screen, so this gets the coordinates of these for future reference.
+     */
+    CGSize winSize = [CCDirector sharedDirector].winSize;
+    CGPoint lowerLeft = ccp(0, FLOOR_HEIGHT);
+    CGPoint lowerRight = ccp(2 * winSize.width, FLOOR_HEIGHT);
+    
+    /*
+     Creates a new Chipmunk body – a static body, because it never moves. Usually you have to add the body to the scene, but you don’t have to for static bodies. 
+     */
+    cpBody *groundBody = cpBodyNewStatic();
+    
+    /*
+     Creates a new segment shape and associates it to the body just created.
+     */
+    //TODO: Benji: Check how radius is used
+    float radius = 10.0;
+    cpShape *groundShape = cpSegmentShapeNew(groundBody, lowerLeft, lowerRight, radius);
+    
+    /*
+     Sets the elasticity to be somewhat bouncy, and the friction to be not very slippery.
+     */
+    groundShape->e = 0.5; // elasticity
+    groundShape->u = 1.0; // friction
+    
+    /*
+     Adds the shape to the Chipmunk space.
+     */
+    cpSpaceAddShape(space, groundShape);
 }
 
 //indicates whether or not the game is over
